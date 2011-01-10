@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #333 url(imgs/bg2.png) repeat scroll top left;
+	color: #fff;
+	font-family: helvetica, arial, sans-serif;
+}
+
+div {
+	bottom: 50px;
+	left: 50px;
+	position: absolute;
+	width: 800px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, p {
+	text-shadow: 2px 2px 2px #000;
+}
+
+h1 {
+	font-size: 56px;
+	letter-spacing: -2px;
+	line-height: .9;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 24px;
+}
+
+#footBar {
+	position: absolute; 
+	top:  620px;
+	left: 300px;
+}
+
+#headerBar {
+	height:122px;
+	width:100%;
+	position: absolute; 
+	top:  0px;
+	left: 0px;
+}
+
+#titlePicContainer {
+	position: relative;
+	left:     50%;
+	width:    50%;
+}
+
+#locket {
+	position: absolute;
+	top:   150px;
+	right: 100px;
+	border-style: double;
+	border-color: #FFF;
+/*	border-width: thick; */
+	border-width: 16px;
+}
+
+#flag {
+	top: 40%;
+	left: 30%;
+}
+
+#copy {
+	bottom: 50px;
+	left: 50px;
+}
+
+#copleft {
+	width: 50px;
+	height: 50px;
+}
+
+.blog 			{ color: #fdb315; }
+.gtalk		 	{ color: #00FF00; }
+.twitter	 	{ color: #1ad2e8; }
+.github		 	{ color: #b061e2; }
+.linkedin	 	{ color: #0000CD; }
+.urele			{ color: #FF0000; }
+.reis				{ color: #CDC5BF; }
+.cogumm			{	color: #9400D3;	}
