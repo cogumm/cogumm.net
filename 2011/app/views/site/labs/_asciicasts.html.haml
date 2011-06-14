@@ -1,0 +1,15 @@
+%article.labs_project
+  .project_language #{image_tag 'labs/ruby.png', :title => 'Ruby', :size => '24x24'} #{image_tag 'labs/git.png', :title => 'Git', :size => '24x24'}
+  .project_image #{link_to image_tag('labs/asciicasts_small.png', :size => '100x100'), image_path('labs/asciicasts.jpg'), :rel => 'shadowbox[CoGUMm Labs - asciicasts]'}
+  .project_info
+    %h2.project_title #{link_to 'asciicasts.com-translations', 'https://github.com/cogumm/asciicasts.com-translations', :target => :_blank}
+    %h4.project_author #{link_to 'Gabriel Feitosa Vilar', 'http://github.com/cogumm', :target => :_blank}
+    %p.project_description= raw t('labs.asciicasts.desc')
+  .clear
+  %hr
+  .project_actions
+    .install
+      %code git clone git@github.com:cogumm/asciicasts.com-translations.git
+    .action.view_source #{link_to t('labs.source'), 'https://github.com/cogumm/asciicasts.com-translations', :target => :_blank}
+    .action.download #{link_to 'download', 'https://github.com/cogumm/asciicasts.com-translations/archives/master', :target => :_blank}
+    .clear

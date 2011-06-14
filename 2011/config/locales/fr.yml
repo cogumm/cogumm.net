@@ -1,0 +1,96 @@
+fr:
+
+  lang: 'fr'
+
+  head:
+    title: Softa · Merci! Beacup!
+    description: "Web 2.0 apps. TODO"
+    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, diogo biazus, daniel weinmann, juan maiz, pedro axelrud, felipe cabral, design, softa, programação, arquitetura de informação, usabilidade, web2.0, ui, ux"
+
+  softa:
+    hello: Bonjour. Bienvenue sur le site web Softa.
+    happy_hacking: "Não perca tempo copiando daqui, o código completo está em http://github.com/softa. Feliz hacking."
+
+  nav:
+    method: Méthode
+    staff: Personnel
+    social: Twitter, Blog & Calendrier
+    contact: Contactez-nous
+
+  description:
+    punchline: "Nous développons des applications <em class='web_two'>web 2.0</em> en utilisant <em class='ruby_on_rails'>Ruby on Rails</em> et <em class='postgresql'>PostgreSQL</em>, combinant le meilleur de l'<em class='open_source'>Open Source</em> pour les <em class='methods'>bonnes méthodes</em> pour réaliser leurs projets en <em class='methods'>moins de temps</em> et avec la plus <em class='methods'>haute qualité</em>."
+    call_to_action: Obtenez un devis
+
+  mailee:
+    description: Mailee.me is a todo text.
+    screenshots: Veja alguns screenshots
+    signup: Signup for free
+
+  method:
+    title: Method
+    contact: get in touch
+    agile:
+      title: Agile methods
+      desc: <p>Blah</p><p>Blah</p>
+    quality:
+      title: Quality
+      desc: <p>Blah</p><p>Blah</p>
+    tech:
+      title: Tech
+      desc: <p>Blah</p><p>Blah</p>
+
+  labs:
+    hstore:
+      desc: Adds support for the PostgreSQL's <samp>hstore</samp> type on <samp>ActiveRecord</samp>. Goodbye <samp>serialize</samp>.
+    hercules:
+      desc: TODO
+    source: TODO
+
+  staff:
+    who_we_are: TODO
+    dw: TOOOOODO
+    db: TODO
+    fc: TODO
+    jm: TODO
+    pa: TODO
+    xkcd:
+      dw: TODO
+      db: TODO
+      fc: "Smell like a man, Man!"
+      jm: TODO
+      pa: TODO
+
+  social:
+    agenda: Calendrier
+    interested: Envie d'une conférence, un cours ou un événement?
+    contact: Entrer en contact
+    with: avec
+    blog:
+      read_more: "[leia mais]"
+
+  rsonrails:
+    we_organize: Nós organizamos o
+    about: Evento realizado no sul do Brasil, apresentando <em>palestras técnicas</em>, <em>cases</em> e <em>lightning talks</em>, e voltado para programadores e entusiastas em desenvolvimento de aplicações usando o framework <em>Ruby on Rails</em>.
+
+  contact:
+    title: Entre em contato
+    name: Nome
+    name_placeholder: Seu nome completo
+    name_required: Você precisa preencher seu nome para poder enviar.
+    email_required: Você precisa preencher seu email para poder enviar.
+    invalid_email: Formato de email inválido. Tente novamente.
+    message_required: Você precisa escrever uma mensagem para poder enviar.
+    email_placeholder: usuario@dominio.com
+    message: Mensagem
+    send:  Enviar
+    wait: TODO
+    message_placeholder: Escreva sua mensagem
+    send_ok_title: Mensagem enviada com sucesso!
+    send_ok_message: Obrigado. Em breve retornaremos seu contato.
+    send_error_title: Ocorreu um erro ao enviar a mensagem.
+    send_error_message: Tente novamente ou, se preferir, envie um email para contato@softa.com.br.
+    send_another_message: Enviar outra mensagem.
+    try_again: Tentar novamente
+
+  colophon:
+    age: 6 years

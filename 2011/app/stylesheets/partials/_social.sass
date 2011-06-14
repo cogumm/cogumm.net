@@ -1,0 +1,152 @@
+body #social
+  background: $social
+  border-top: 1px solid ($social + #333)
+  border-bottom: 2px solid
+  padding-bottom: 1em
+  h2
+    color: #000
+    margin-top: .75em
+    margin-bottom: .25em
+    text-shadow: ($social + #222) 0 1px 0
+  h3
+    font-size: 14px
+    font-weight: 900
+    margin: 0
+    padding: 0 0 6px 0
+  hr
+    border: 0 none
+    border-top: 1px solid ($social - #222)
+    border-bottom: 1px solid ($social + #222)
+  a
+    color: #000
+    /*$orange */
+    /*text-shadow: ($social - #222)  #000 1px 1px 0*/
+    &:hover
+      color: #000
+    /* ($orange + #444) */
+    &:active
+      color: #fff
+      /*($orange - #111)*/
+  p
+    color: #000
+    padding: 0
+    margin: 0
+    text-shadow: none
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+    li
+      margin: 0
+  #twitter
+    +column(7)
+    +append(1)
+    color: white
+    #cgm_twitter
+      overflow: hidden
+      margin-bottom: 1em
+      p
+        margin-left: 65px
+        font-size: 12px
+      li
+        padding: 6px 0 8px 0
+        font-size: 12px
+        word-break: normal
+        a.user_image_link
+          display: block
+          float: left
+          margin: 4px 6px
+          &:hover img
+          border-color: $social + #444
+          &:active img
+            border-color: $social + #222
+          img
+            +box-shadow(rgba(0,0,0,.5),0,1px,2px)
+            border: 1px solid ($social + #111)
+            
+  #facebook
+    +column(9)
+    +append(1)
+    p
+      color: white
+      a
+        white-space: nowrap
+    #cgm_facebook
+      margin-bottom: 1em
+      p
+        font-size: 12px
+      li
+        padding: 10px 0
+        border-bottom: 1px solid ($social - #222)
+        border-top: 1px solid ($social + #222)
+        &:first-child
+          padding-top: 0
+          border-top: 0 none
+        &:last-child
+          border-bottom: 0 none
+        div
+          font-size: 9px
+  #calendar
+    +column(6, last)
+    text-align: center
+    #cgm_calendar
+      margin-bottom: 1em
+      h3.what
+        margin: 12px 0 6px 0
+        padding: 0 0 6px 0
+      h4.where
+        font:
+          size: 12px
+          weight: 900
+        margin: 6px 0
+        color: #000
+        /* color: $social + $grey */
+        text-shadow: ($social - #555) 1px 1px 0
+        span.with
+          font:
+            family: georgia, times, 'times new roman', serif
+            style: italic
+            weight: 100
+      .when_and_event_title
+        +two-box-shadow(($social + #222) 0 1px 0, ($social - #666) 0 1px 0 inset)
+        +rounded(3px)
+        display: block
+        overflow: hidden
+        padding: 4px
+        background: ($social - #222)
+        time.when, span.event_title
+          font-weight: 900
+          color: #000
+          text-shadow: ($social + #222) 0 1px 0
+          font-size: 12px
+    li
+      padding: 6px 0
+      border-bottom: 1px solid ($social - #222)
+      border-top: 1px solid ($social + #222)
+      &:first-child
+        padding-top: 0
+        border-top: 0 none
+      &:last-child
+        border-bottom: 0 none
+      p
+        font-size: 12px
+        &.links
+          img
+            vertical-align: middle
+    .event_contact
+      h3
+        color: #000
+        padding: 12px 0 6px 0
+        text-shadow: ($social + #222) 0 1px 0
+        font:
+          size: 16px
+          weight: 900
+      a
+        font:
+          size: 12px
+          weight: 900
+        text-shadow: $social 1px 1px 0
+        &:hover, &:active
+          text-decoration: none
+  .separator
+    text-align: center

@@ -1,0 +1,107 @@
+en:
+
+  lang: 'en'
+
+  head:
+    title: "CoGUMm.net - Nem melhor, nem pior, apenas diferente!"
+    description: "Aplicações web 2.0. O melhor do open source: Ruby on Rails e PostgreSQL. Utilizamos as melhores tecnologias aliadas aos métodos certos para desenvolver seus projetos no menor tempo e com a maior qualidade."
+    keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, gabriel feitosa vilar, cogumm, gabriel f. vilar, design, programação, arquitetura de informação, usabilidade, web2.0, interface de usuário, html5, html"
+
+  cgm:
+    hello: Olá. Seja bem vindo ao meu site.
+    happy_hacking: "Por favor, não perca seu tempo copiando nada daqui. O código completo está no meu Github, em https://github.com/cogumm/cogumm.net. Happy hacking."
+
+  nav:
+    method: Metodologia
+    me: Quem SOU
+    social: "Twitter, Facebook & Agenda"
+    contact: Contato
+    portfolio: Portfólio
+
+  description:
+    punchline: "Desenvolvemos aplicações <em class='web_two'>web 2.0</em> e <em class='web_two'>web 3.0</em> usando <em class='ruby_on_rails'>Ruby on Rails</em> com <em class='postgresql'>PostgreSQL</em> ou <em class='mysql'>MySQL</em>, aliando o melhor do <em class='open_source'>Open Source</em> aos <em class='methods'>métodos certos</em> para realizar seus projetos no <em class='methods'>menor tempo</em> e com a <em class='methods'>maior qualidade</em>."
+    call_to_action: Envie seu projeto
+
+  method:
+    title: Metodologia
+    contact: entre em contato
+    agile:
+      title: Métodos ágeis
+      desc: "<p>Utilizando sempre metodologias de gerenciamento de projetos ágeis como o SCUM e o XP, ou seja, utilizar métodos ágeis significa colocar as pessoas em primeiro lugar. O sucesso de um projeto de software começa com um time qualificado e que ama o que faz.</p><p>Cliente como parte da equipe, comunicação aberta e foco no resultado complementam a receita.</p>"
+    quality:
+      title: Qualidade
+      desc: "<p>A experiência de uso determina a qualidade de um software. Por isto, dedico a maior parte do esforços para a criação de interfaces bem projetadas e desenhadas.</p><p>Além disso, utilizo uma série de técnicas para criar sistemas de alta qualidade. Controle de versões com git, testes automatizados de tela, integração contínua e deployment automatizado são algumas delas.</p>"
+    tech:
+      title: Tecnologia
+      desc: "<p>Empresas de tecnologia não devem ter medo de experimentar, e assim eu também não tenho esse medo de experimentar. Estou sempre estudando novas ferramentas e testando novas plataformas. Hoje, trabalho principalmente com Ruby on Rails, PostgreSQL e MySQL.</p><p>Tenho também um conhecimento em linguagens como PHP, HTML5, CSS3, Servidores Unix, WordPress 2.9.x.</p>"
+
+  staff:
+    who_we_are: Quem SOU
+    cgm: "<p>Bem sou um jovem sonhador, cheio de muitas idéias, apaixonado por Software Livre, OpenSource e etc.. programador por opção, design quando não tem outra maneira..</p><p>Faço Sistemas de Informação pela UnP, onde estou aprendendo muito mais sobre a area que eu escolhi para seguir e tenho muitos projetos ainda para realizar na area de Web, onde eu gosto muito, estudo bastante também sobre essa area maravilhosa.</p><p>Atualmente estou trabalhando como desenvolvedor freelance com Ruby on Rails.</p><p>Sou membro do PSL-Nordeste, PSL-RN, FLISOL-BR, Rails-BR, Rails-RN, DevNatal, +WEB, DojoRN, e faço parte do Time de Tradução do GNOME Brasileiro.</p><p>Sou fãn do <a href='http://urele.com' target='_blank'>encurtador</a> favorito do Rio Grande do Norte, e nas horas vagas dou uma mãozinha no desenvolvimento dele :D</p>"
+    xkcd:
+      cgm: "Simples is HARD"
+
+  social:
+    agenda: agenda
+    interested: "Interessado em uma palestra, curso ou evento?"
+    contact: Entre em contato »
+    with: com
+    blog:
+      read_more: "[leia mais]"
+
+  contact:
+    title: Entre em contato
+    name: Nome
+    name_placeholder: Seu nome completo
+    name_required: Você precisa preencher seu nome para poder enviar.
+    email_required: Você precisa preencher seu email para poder enviar.
+    invalid_email: Formato de email inválido. Tente novamente.
+    message_required: Você precisa escrever uma mensagem para poder enviar.
+    email_placeholder: usuario@dominio.com
+    message: Mensagem
+    send:  Enviar
+    wait: Aguarde...
+    message_placeholder: Escreva sua mensagem
+    send_ok_title: Mensagem enviada com sucesso!
+    send_ok_message: Obrigado. Em breve retornaremos seu contato.
+    send_error_title: Ooops. Ocorreu um erro ao enviar a mensagem.
+    send_error_message: "Tente novamente ou, se preferir, envie um email para contato@cogumm.net."
+    send_another_message: Enviar outra mensagem.
+    try_again: Tentar novamente.
+
+  colophon:
+    age: 3 anos de pura emoção.
+# ----------------------------------------------------------------------------------------------------------- #    
+  labs:
+    urele:
+      desc: O que deseja <samp>compartilhar</samp> hoje?
+    spry:
+      desc: "Cansado de sempre procurar um gerenciador de projetos, decidir criar o meu próprio. Utilizando <samp>metodologia ágil</samp> para gerenciamento de todos os projetos desenvolvidos por mim."
+    cancan:
+      desc: "Arquivos modificados para tratuzir as permissões do <samp>CanCan</samp>, juntamente com o pt-BR da aplicação Rails."
+    asciicasts:
+      desc: "<p><samp>ascicasts.com-translations</samp></p><p>Um local central, onde todos estão convidados a adicionar, examinar, discutir e (é claro) modificar as traduções dos episódios <a href='http://asciicasts.com/' target='_blank'>asciicasts.com.</a></p>"
+    dojorn:
+      desc: "Medidor de tempo para ser usado em <samp>Coding Dojos</samp>."
+    performance:
+      desc: "Teste de Perfomance do <samp>Ruby 1.8.X</samp> <b>x</b> <samp>Ruby 1.9.X</samp>."
+    ruby-unix:
+      desc: "Instalando e configurando <samp>Ruby</samp> e <samp>Rails</samp> no <samp>Unix</samp>."
+    source: ver o código fonte
+    
+  ddex:
+    description: "Portal DDEX - foi um aplicativo web 2.0 para o controle das mercadorias da empresa. Desenvolvido em Ruby on Rails 2.3.5 e MySQL, focado na sua usabilidade, onde cada setor responsável tinha o total controle da mercadoria."
+    screenshots: Veja algumas telas
+
+  escolhanome:
+    description: ""
+    site_off: "Site fora do ar"
+    
+  omega:
+    description: "Ômega 5 é um grupo formado por freelancers que pode atender as suas necessidades em diversas frentes. Desenvolvido em PHP 5.3.3 com o FreeFramework e MySQL."
+    alert: Site em desenvolvimento
+  
+  androidday:
+    description: "#AndroidDay é o site oficial do evento exclusivo sobre Android, Android é um sistema operacional móvel. Foi inicialmente desenvolvido pela Google e posteriormente pela Open Handset Alliance, mas a Google é a responsável pela gerência do produto e engenharia de processos. Desenvolvido em PHP 5.3.3 com o FreeFramework e MySQL."
+    alert: Site em desenvolvimento
+    

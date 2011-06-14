@@ -1,0 +1,43 @@
+#social
+  .wrapper
+    #twitter
+      %section
+        %h2 twitter
+        #cgm_twitter
+    #facebook
+      %section
+        %h2 facebook
+        #cgm_facebook
+          %ul
+            -# - @posts.each do |post|
+              -# %li
+                -# %h3.what #{link_to post.title, post.link, :target=> :_blank, :class => 'event_link'}
+                -# %p #{post.desc}… #{link_to t('social.blog.read_more'), post.link, :target=> :_blank}
+    #calendar
+      %section
+        %h2 #{t 'social.agenda'}
+        #cgm_calendar
+          %ul
+            - @events.each do |event|
+              %li
+                .when_and_event_title
+                  %time.when{ :datetime => event[:when_not_human] } #{event[:when]} ·
+                  %span.event_title #{event[:event_title]}
+                %h3.what
+                  #{link_to event[:title], event[:title_link], :class => 'event_link', :target=> :_blank}
+                %h4.where
+                  %span.with #{t('social.with')}
+                  #{event[:who]}
+                  %br
+                  #{event[:where]}
+                .clear
+                %p
+                  #{truncate(event[:desc], :length => 100, :separator => '.', :omission => '…')}
+                %p.event_url
+                  #{link_to (event[:event_site_title] || event[:event_site]), event[:event_site], :target=> :_blank}
+        .separator #{image_tag 'separator.png', :size => '50x16'}
+        .event_contact
+          %h3 #{t('social.interested')}
+          %p #{link_to t('social.contact'), '#contact' }
+          -# #{mail_to 'contato@cogumm.net',  t('social.contact'), :target=> :_blank }
+    .clear

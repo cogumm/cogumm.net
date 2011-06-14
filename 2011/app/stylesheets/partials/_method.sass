@@ -1,0 +1,29 @@
+body #content
+  .method_torned_paper
+    height: 14px
+    background:
+      color: #ccc
+      image: url(/images/method/method_torned_paper.gif)
+      repeat: repeat-x
+      attachment: scroll
+      position: center top
+  #cgm_method
+    border-bottom: 1px solid #ccc
+    background:
+      color: #e0e0e0
+      image: url(/images/method/method_background.gif)
+      repeat: repeat
+      position: center top
+    .wrapper h1
+      text-shadow: #000 0 2px 1px
+      color: #d3d3d3
+    .method_image
+      +column(12)
+    .method_text
+      text-align: justify
+      +column(12,last)
+    #quality_image
+      +column(13)
+    #quality_text
+      +column(10,last)
+      +append(1)

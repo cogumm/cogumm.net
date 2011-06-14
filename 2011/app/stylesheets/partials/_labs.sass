@@ -1,0 +1,108 @@
+body #content
+  .labs_header_wire, .labs_footer_wire
+    background:
+      image: url(/images/header_top.gif)
+      repeat: repeat
+  .labs_header_wire
+    border-top: 1px solid white
+    height: 5px
+  .labs_footer_wire
+    border-bottom: 1px solid white
+    height: 1px
+  #cgm_labs
+    background: #f3f3f3
+    border-top: 1px solid white
+    h1
+      text-align: center
+    hr
+      border: 0 none
+      padding: 1em 0
+    article.labs_project
+      margin: 0 24px
+      +rounded(6px)
+      +inset-box-shadow(0, 1px, 0, #fff)
+      background: #e7e7e7
+      border: 1px solid #d6d6d6
+      +background-clip('padding')
+      p
+        margin: 0
+      hr
+        padding: 0
+        margin: 0
+        border-top: 1px solid #ccc
+        border-bottom: 1px solid #f7f7f7
+    .project_language
+      float: right
+      display: inline
+      margin: 20px 20px 0 0
+    .project_image
+      min-width: 100px
+      min-height: 100px
+      margin: 20px
+      float: left
+      img
+        +rounded(6px)
+        background: $grey
+        padding: 5px
+        cursor: pointer
+        +transition(background, .2s, ease-in)
+        &:hover
+          background: $orange
+        &:active
+          background: $orange - #222
+    .project_info
+      float: left
+      width: 650px
+      padding: 14px 20px 20px 0px
+      .project_title
+        margin-top: 14px
+        a
+          font-size: 22px
+          color: #000
+      .project_author a
+        font-size: 18px
+        color: #000
+      .project_description
+        font-size: 16px
+        margin: 10px 0 0 0
+        color: $grey
+        samp
+          color: black
+    .project_actions
+      +rounded(0px 0px 6px 6px)
+      background: #ccc
+      +linear-gradient(color-stops(#ccc, #b5b5b5))
+      width: 100%
+      padding: 6px 0
+      .install
+        float: left
+        padding: 4px 0 4px 20px
+        code
+          font-weight: 900
+          text-shadow: #fff 0 1px 0
+      .action
+        a
+          +inset-box-shadow(0, 1px, 0, #fff)
+          +rounded(4px)
+          border: 1px solid #999
+          padding: 3px 10px
+          margin-right: 20px
+          display: block
+          float: right
+          color: #202020
+          text-shadow: #f2f2f2 0 1px 0
+          font-weight: 900
+          display: block
+          background: #ddd
+          +linear-gradient(color-stops(#ccc, #bbb))
+          text-decoration: none
+          &:hover
+            text-decoration: none
+            background: #eee
+            color: #000
+            +linear-gradient(color-stops(#ddd, #ccc))
+          &:active
+            +inset-box-shadow(0, -1px, 0, #ddd)
+            text-decoration: none
+            background: #c0c0c0
+            +linear-gradient(color-stops(#bbb, #ccc))

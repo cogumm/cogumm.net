@@ -1,0 +1,16 @@
+.wrapper
+  %section
+    .work_showcase_info
+      %h3
+        #{image_tag('portfolio/escolhanome/escolhanome_logo.jpg', :alt => 'EscolhaNossoNome', :size => "158x90")}
+      %p
+        #{t('escolhanome.description')}
+      .portfolio_links
+        %p
+          #{link_to 'Visitar website', '#', :class => 'twitter cgm_button', :target => :_blank }
+        .clear
+        %hr
+        %h4 #{t('escolhanome.site_off')}
+    .work_showcase_image
+      #{image_tag 'portfolio/escolhanome/escolhanome.jpg', :title => 'EscolhaNossoNome', :alt => 'EscolhaNossoNome', :size => "550x390" }
+    .clear

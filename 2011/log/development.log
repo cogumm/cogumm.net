@@ -1,0 +1,1563 @@
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:21:45 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/en
+Completed 302 Found in 31ms
+
+
+Started GET "/cogumm.net" for 127.0.0.1 at 2011-06-08 23:23:47 -0300
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/cogumm.net" for 127.0.0.1 at 2011-06-08 23:23:49 -0300
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/cogumm.net" for 127.0.0.1 at 2011-06-08 23:23:49 -0300
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/cogumm.net" for 127.0.0.1 at 2011-06-08 23:23:50 -0300
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:23:51 -0300
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:23:54 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (381.8ms)
+Rendered site/portfolio/_ddex.html.haml (14.7ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.2ms)
+Rendered site/portfolio/_omega5.html.haml (10.0ms)
+Rendered site/portfolio/_androidday.html.haml (9.8ms)
+Rendered site/_portfolio.html.haml (58.3ms)
+Rendered site/method/_agile.html.haml (4.9ms)
+Rendered site/method/_quality.html.haml (5.0ms)
+Rendered site/method/_tech.html.haml (5.0ms)
+Rendered site/_method.html.haml (28.3ms)
+Rendered site/labs/_urele.html.haml (10.4ms)
+Rendered site/labs/_spry.html.haml (9.4ms)
+Rendered site/labs/_ruby-unix.html.haml (10.4ms)
+Rendered site/labs/_cancan.html.haml (10.6ms)
+Rendered site/labs/_asciicasts.html.haml (11.6ms)
+Rendered site/labs/_performance.html.haml (11.1ms)
+Rendered site/labs/_dojorn.html.haml (66.4ms)
+Rendered site/_labs.html.haml (154.4ms)
+Rendered site/staff/_cgm.html.haml (5.4ms)
+Rendered site/_me.html.haml (12.8ms)
+Rendered site/_social.html.haml (87.3ms)
+Rendered layouts/_cgm.html.haml (4.1ms)
+Rendered layouts/_navigation.html.haml (9.9ms)
+Rendered layouts/_footer.html.haml (9.9ms)
+Rendered layouts/_google_analytics.html.haml (2.5ms)
+Rendered site/index.html.haml within layouts/site (830.3ms)
+Completed 200 OK in 928ms (Views: 837.5ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:23:55 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:24:14 -0300
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:24:41 -0300
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+ArgumentError (missing :action):
+  config/routes.rb:8:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:25:05 -0300
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/en
+Completed 302 Found in 31ms
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:25:09 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/en
+Completed 302 Found in 31ms
+
+
+Started GET "/cogumm.net" for 127.0.0.1 at 2011-06-08 23:25:28 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/en
+Completed 302 Found in 31ms
+
+
+Started GET "/cogumm.net" for 127.0.0.1 at 2011-06-08 23:25:41 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhostcogumm.net/en
+Completed 302 Found in 30ms
+
+
+Started GET "/cogumm.net" for 127.0.0.1 at 2011-06-08 23:25:57 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/cogumm.net/en
+Completed 302 Found in 31ms
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:25:57 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (5.3ms)
+Rendered site/portfolio/_ddex.html.haml (14.3ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.2ms)
+Rendered site/portfolio/_omega5.html.haml (10.7ms)
+Rendered site/portfolio/_androidday.html.haml (9.8ms)
+Rendered site/_portfolio.html.haml (57.8ms)
+Rendered site/method/_agile.html.haml (5.0ms)
+Rendered site/method/_quality.html.haml (5.4ms)
+Rendered site/method/_tech.html.haml (5.3ms)
+Rendered site/_method.html.haml (29.2ms)
+Rendered site/labs/_urele.html.haml (10.6ms)
+Rendered site/labs/_spry.html.haml (9.5ms)
+Rendered site/labs/_ruby-unix.html.haml (10.9ms)
+Rendered site/labs/_cancan.html.haml (10.5ms)
+Rendered site/labs/_asciicasts.html.haml (11.5ms)
+Rendered site/labs/_performance.html.haml (10.5ms)
+Rendered site/labs/_dojorn.html.haml (11.5ms)
+Rendered site/_labs.html.haml (98.8ms)
+Rendered site/staff/_cgm.html.haml (5.4ms)
+Rendered site/_me.html.haml (12.5ms)
+Rendered site/_social.html.haml (18.3ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.4ms)
+Rendered layouts/_footer.html.haml (9.8ms)
+Rendered layouts/_google_analytics.html.haml (2.8ms)
+Rendered site/index.html.haml within layouts/site (352.3ms)
+Completed 200 OK in 375ms (Views: 359.4ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:25:58 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:26:19 -0300
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+ActionController::RoutingError (No route matches "/en"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:26:21 -0300
+
+ActionController::RoutingError (No route matches "/en"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:26:26 -0300
+
+ActionController::RoutingError (No route matches "/en"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:26:27 -0300
+
+ActionController::RoutingError (No route matches "/en"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:26:29 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/en
+Completed 302 Found in 39ms
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:26:41 -0300
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+ActionController::RoutingError (No route matches "/en"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:26:42 -0300
+
+ActionController::RoutingError (No route matches "/en"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:26:43 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/en
+Completed 302 Found in 33ms
+
+
+Started GET "/cogumm.net" for 127.0.0.1 at 2011-06-08 23:26:52 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/en
+Completed 302 Found in 31ms
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:27:06 -0300
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/cogumm.net/en
+Completed 302 Found in 30ms
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:27:06 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (5.0ms)
+Rendered site/portfolio/_ddex.html.haml (14.6ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.6ms)
+Rendered site/portfolio/_omega5.html.haml (10.5ms)
+Rendered site/portfolio/_androidday.html.haml (10.0ms)
+Rendered site/_portfolio.html.haml (59.4ms)
+Rendered site/method/_agile.html.haml (5.2ms)
+Rendered site/method/_quality.html.haml (5.1ms)
+Rendered site/method/_tech.html.haml (4.9ms)
+Rendered site/_method.html.haml (28.2ms)
+Rendered site/labs/_urele.html.haml (10.6ms)
+Rendered site/labs/_spry.html.haml (8.9ms)
+Rendered site/labs/_ruby-unix.html.haml (10.3ms)
+Rendered site/labs/_cancan.html.haml (10.8ms)
+Rendered site/labs/_asciicasts.html.haml (11.5ms)
+Rendered site/labs/_performance.html.haml (11.0ms)
+Rendered site/labs/_dojorn.html.haml (11.4ms)
+Rendered site/_labs.html.haml (98.7ms)
+Rendered site/staff/_cgm.html.haml (5.6ms)
+Rendered site/_me.html.haml (12.9ms)
+Rendered site/_social.html.haml (18.3ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.2ms)
+Rendered layouts/_footer.html.haml (9.8ms)
+Rendered layouts/_google_analytics.html.haml (2.5ms)
+Rendered site/index.html.haml within layouts/site (296.3ms)
+Completed 200 OK in 382ms (Views: 303.2ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:27:07 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:27:43 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/{Rails.root}/en
+Completed 302 Found in 30ms
+
+
+Started GET "/cogumm.net/" for 127.0.0.1 at 2011-06-08 23:27:52 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/cogumm.net/en
+Completed 302 Found in 32ms
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:27:52 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (4.6ms)
+Rendered site/portfolio/_ddex.html.haml (14.2ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.1ms)
+Rendered site/portfolio/_omega5.html.haml (9.9ms)
+Rendered site/portfolio/_androidday.html.haml (10.1ms)
+Rendered site/_portfolio.html.haml (57.4ms)
+Rendered site/method/_agile.html.haml (4.9ms)
+Rendered site/method/_quality.html.haml (4.9ms)
+Rendered site/method/_tech.html.haml (4.8ms)
+Rendered site/_method.html.haml (27.5ms)
+Rendered site/labs/_urele.html.haml (10.8ms)
+Rendered site/labs/_spry.html.haml (8.9ms)
+Rendered site/labs/_ruby-unix.html.haml (10.4ms)
+Rendered site/labs/_cancan.html.haml (69.2ms)
+Rendered site/labs/_asciicasts.html.haml (11.8ms)
+Rendered site/labs/_performance.html.haml (11.1ms)
+Rendered site/labs/_dojorn.html.haml (11.0ms)
+Rendered site/_labs.html.haml (157.4ms)
+Rendered site/staff/_cgm.html.haml (5.2ms)
+Rendered site/_me.html.haml (12.3ms)
+Rendered site/_social.html.haml (18.9ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.7ms)
+Rendered layouts/_footer.html.haml (9.8ms)
+Rendered layouts/_google_analytics.html.haml (2.5ms)
+Rendered site/index.html.haml within layouts/site (351.9ms)
+Completed 200 OK in 375ms (Views: 358.8ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:27:53 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:28:14 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:28:28 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (5.4ms)
+Rendered site/portfolio/_ddex.html.haml (15.8ms)
+Rendered site/portfolio/_escolhanome.html.haml (10.4ms)
+Rendered site/portfolio/_omega5.html.haml (11.3ms)
+Rendered site/portfolio/_androidday.html.haml (10.7ms)
+Rendered site/_portfolio.html.haml (63.6ms)
+Rendered site/method/_agile.html.haml (5.5ms)
+Rendered site/method/_quality.html.haml (5.7ms)
+Rendered site/method/_tech.html.haml (5.6ms)
+Rendered site/_method.html.haml (94.0ms)
+Rendered site/labs/_urele.html.haml (11.4ms)
+Rendered site/labs/_spry.html.haml (12.0ms)
+Rendered site/labs/_ruby-unix.html.haml (11.2ms)
+Rendered site/labs/_cancan.html.haml (11.3ms)
+Rendered site/labs/_asciicasts.html.haml (12.2ms)
+Rendered site/labs/_performance.html.haml (11.2ms)
+Rendered site/labs/_dojorn.html.haml (11.5ms)
+Rendered site/_labs.html.haml (106.3ms)
+Rendered site/staff/_cgm.html.haml (5.7ms)
+Rendered site/_me.html.haml (13.2ms)
+Rendered site/_social.html.haml (19.8ms)
+Rendered layouts/_cgm.html.haml (4.3ms)
+Rendered layouts/_navigation.html.haml (9.8ms)
+Rendered layouts/_footer.html.haml (10.4ms)
+Rendered layouts/_google_analytics.html.haml (2.8ms)
+Rendered site/index.html.haml within layouts/site (380.7ms)
+Completed 200 OK in 407ms (Views: 389.0ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:28:29 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:28:40 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (70.1ms)
+Rendered site/portfolio/_ddex.html.haml (15.2ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.3ms)
+Rendered site/portfolio/_omega5.html.haml (10.1ms)
+Rendered site/portfolio/_androidday.html.haml (10.2ms)
+Rendered site/_portfolio.html.haml (59.3ms)
+Rendered site/method/_agile.html.haml (5.0ms)
+Rendered site/method/_quality.html.haml (5.0ms)
+Rendered site/method/_tech.html.haml (4.9ms)
+Rendered site/_method.html.haml (27.7ms)
+Rendered site/labs/_urele.html.haml (10.9ms)
+Rendered site/labs/_spry.html.haml (9.3ms)
+Rendered site/labs/_ruby-unix.html.haml (10.7ms)
+Rendered site/labs/_cancan.html.haml (10.5ms)
+Rendered site/labs/_asciicasts.html.haml (11.9ms)
+Rendered site/labs/_performance.html.haml (10.5ms)
+Rendered site/labs/_dojorn.html.haml (10.8ms)
+Rendered site/_labs.html.haml (99.0ms)
+Rendered site/staff/_cgm.html.haml (5.4ms)
+Rendered site/_me.html.haml (12.6ms)
+Rendered site/_social.html.haml (18.5ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.5ms)
+Rendered layouts/_footer.html.haml (9.7ms)
+Rendered layouts/_google_analytics.html.haml (2.5ms)
+Rendered site/index.html.haml within layouts/site (361.8ms)
+Completed 200 OK in 386ms (Views: 369.3ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:28:41 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:28:49 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (5.1ms)
+Rendered site/portfolio/_ddex.html.haml (14.3ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.2ms)
+Rendered site/portfolio/_omega5.html.haml (10.1ms)
+Rendered site/portfolio/_androidday.html.haml (10.1ms)
+Rendered site/_portfolio.html.haml (57.8ms)
+Rendered site/method/_agile.html.haml (4.8ms)
+Rendered site/method/_quality.html.haml (5.0ms)
+Rendered site/method/_tech.html.haml (4.9ms)
+Rendered site/_method.html.haml (27.7ms)
+Rendered site/labs/_urele.html.haml (10.6ms)
+Rendered site/labs/_spry.html.haml (9.3ms)
+Rendered site/labs/_ruby-unix.html.haml (10.4ms)
+Rendered site/labs/_cancan.html.haml (10.5ms)
+Rendered site/labs/_asciicasts.html.haml (11.3ms)
+Rendered site/labs/_performance.html.haml (10.9ms)
+Rendered site/labs/_dojorn.html.haml (10.9ms)
+Rendered site/_labs.html.haml (97.6ms)
+Rendered site/staff/_cgm.html.haml (17.6ms)
+Rendered site/_me.html.haml (31.6ms)
+Rendered site/_social.html.haml (21.3ms)
+Rendered layouts/_cgm.html.haml (4.6ms)
+Rendered layouts/_navigation.html.haml (9.9ms)
+Rendered layouts/_footer.html.haml (10.6ms)
+Rendered layouts/_google_analytics.html.haml (70.4ms)
+Rendered site/index.html.haml within layouts/site (386.4ms)
+Completed 200 OK in 411ms (Views: 393.8ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:28:50 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:29:09 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (4.9ms)
+Rendered site/portfolio/_ddex.html.haml (14.9ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.5ms)
+Rendered site/portfolio/_omega5.html.haml (11.0ms)
+Rendered site/portfolio/_androidday.html.haml (9.8ms)
+Rendered site/_portfolio.html.haml (59.5ms)
+Rendered site/method/_agile.html.haml (4.9ms)
+Rendered site/method/_quality.html.haml (5.0ms)
+Rendered site/method/_tech.html.haml (5.3ms)
+Rendered site/_method.html.haml (28.3ms)
+Rendered site/labs/_urele.html.haml (10.8ms)
+Rendered site/labs/_spry.html.haml (9.0ms)
+Rendered site/labs/_ruby-unix.html.haml (10.4ms)
+Rendered site/labs/_cancan.html.haml (10.4ms)
+Rendered site/labs/_asciicasts.html.haml (11.9ms)
+Rendered site/labs/_performance.html.haml (10.5ms)
+Rendered site/labs/_dojorn.html.haml (10.7ms)
+Rendered site/_labs.html.haml (97.9ms)
+Rendered site/staff/_cgm.html.haml (5.1ms)
+Rendered site/_me.html.haml (12.1ms)
+Rendered site/_social.html.haml (76.4ms)
+Rendered layouts/_cgm.html.haml (3.9ms)
+Rendered layouts/_navigation.html.haml (9.3ms)
+Rendered layouts/_footer.html.haml (10.0ms)
+Rendered layouts/_google_analytics.html.haml (2.9ms)
+Rendered site/index.html.haml within layouts/site (354.2ms)
+Completed 200 OK in 378ms (Views: 361.6ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:29:09 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/cogumm.net/pt" for 127.0.0.1 at 2011-06-08 23:29:17 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (5.2ms)
+Rendered site/portfolio/_ddex.html.haml (15.7ms)
+Rendered site/portfolio/_escolhanome.html.haml (11.2ms)
+Rendered site/portfolio/_omega5.html.haml (12.2ms)
+Rendered site/portfolio/_androidday.html.haml (10.6ms)
+Rendered site/_portfolio.html.haml (66.3ms)
+Rendered site/method/_agile.html.haml (5.3ms)
+Rendered site/method/_quality.html.haml (5.5ms)
+Rendered site/method/_tech.html.haml (5.5ms)
+Rendered site/_method.html.haml (31.6ms)
+Rendered site/labs/_urele.html.haml (11.1ms)
+Rendered site/labs/_spry.html.haml (9.5ms)
+Rendered site/labs/_ruby-unix.html.haml (10.9ms)
+Rendered site/labs/_cancan.html.haml (11.2ms)
+Rendered site/labs/_asciicasts.html.haml (74.1ms)
+Rendered site/labs/_performance.html.haml (11.4ms)
+Rendered site/labs/_dojorn.html.haml (11.7ms)
+Rendered site/_labs.html.haml (165.4ms)
+Rendered site/staff/_cgm.html.haml (6.1ms)
+Rendered site/_me.html.haml (15.2ms)
+Rendered site/_social.html.haml (20.9ms)
+Rendered layouts/_cgm.html.haml (3.9ms)
+Rendered layouts/_navigation.html.haml (9.4ms)
+Rendered layouts/_footer.html.haml (9.2ms)
+Rendered layouts/_google_analytics.html.haml (2.5ms)
+Rendered site/index.html.haml within layouts/site (380.6ms)
+Completed 200 OK in 406ms (Views: 388.7ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:29:18 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/cogumm.net/pt" for 127.0.0.1 at 2011-06-08 23:29:40 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (5.1ms)
+Rendered site/portfolio/_ddex.html.haml (14.6ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.6ms)
+Rendered site/portfolio/_omega5.html.haml (10.5ms)
+Rendered site/portfolio/_androidday.html.haml (9.9ms)
+Rendered site/_portfolio.html.haml (59.4ms)
+Rendered site/method/_agile.html.haml (5.4ms)
+Rendered site/method/_quality.html.haml (5.1ms)
+Rendered site/method/_tech.html.haml (62.8ms)
+Rendered site/_method.html.haml (86.8ms)
+Rendered site/labs/_urele.html.haml (11.4ms)
+Rendered site/labs/_spry.html.haml (9.2ms)
+Rendered site/labs/_ruby-unix.html.haml (10.5ms)
+Rendered site/labs/_cancan.html.haml (10.6ms)
+Rendered site/labs/_asciicasts.html.haml (11.7ms)
+Rendered site/labs/_performance.html.haml (11.0ms)
+Rendered site/labs/_dojorn.html.haml (10.9ms)
+Rendered site/_labs.html.haml (99.3ms)
+Rendered site/staff/_cgm.html.haml (5.1ms)
+Rendered site/_me.html.haml (12.0ms)
+Rendered site/_social.html.haml (18.8ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.2ms)
+Rendered layouts/_footer.html.haml (9.2ms)
+Rendered layouts/_google_analytics.html.haml (2.7ms)
+Rendered site/index.html.haml within layouts/site (355.0ms)
+Completed 200 OK in 379ms (Views: 362.3ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:29:40 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/cogumm.net/pt" for 127.0.0.1 at 2011-06-08 23:29:46 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (4.7ms)
+Rendered site/portfolio/_ddex.html.haml (14.2ms)
+Rendered site/portfolio/_escolhanome.html.haml (67.8ms)
+Rendered site/portfolio/_omega5.html.haml (10.9ms)
+Rendered site/portfolio/_androidday.html.haml (9.7ms)
+Rendered site/_portfolio.html.haml (117.0ms)
+Rendered site/method/_agile.html.haml (4.9ms)
+Rendered site/method/_quality.html.haml (5.1ms)
+Rendered site/method/_tech.html.haml (5.0ms)
+Rendered site/_method.html.haml (28.1ms)
+Rendered site/labs/_urele.html.haml (11.0ms)
+Rendered site/labs/_spry.html.haml (9.0ms)
+Rendered site/labs/_ruby-unix.html.haml (10.5ms)
+Rendered site/labs/_cancan.html.haml (11.0ms)
+Rendered site/labs/_asciicasts.html.haml (11.9ms)
+Rendered site/labs/_performance.html.haml (10.6ms)
+Rendered site/labs/_dojorn.html.haml (10.8ms)
+Rendered site/_labs.html.haml (98.8ms)
+Rendered site/staff/_cgm.html.haml (5.2ms)
+Rendered site/_me.html.haml (12.2ms)
+Rendered site/_social.html.haml (18.9ms)
+Rendered layouts/_cgm.html.haml (3.9ms)
+Rendered layouts/_navigation.html.haml (9.3ms)
+Rendered layouts/_footer.html.haml (9.4ms)
+Rendered layouts/_google_analytics.html.haml (2.8ms)
+Rendered site/index.html.haml within layouts/site (353.2ms)
+Completed 200 OK in 377ms (Views: 360.4ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:29:46 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:29:49 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (13.8ms)
+Rendered site/portfolio/_ddex.html.haml (20.5ms)
+Rendered site/portfolio/_escolhanome.html.haml (20.4ms)
+Rendered site/portfolio/_omega5.html.haml (24.4ms)
+Rendered site/portfolio/_androidday.html.haml (11.2ms)
+Rendered site/_portfolio.html.haml (99.9ms)
+Rendered site/method/_agile.html.haml (4.9ms)
+Rendered site/method/_quality.html.haml (5.1ms)
+Rendered site/method/_tech.html.haml (5.0ms)
+Rendered site/_method.html.haml (28.4ms)
+Rendered site/labs/_urele.html.haml (10.9ms)
+Rendered site/labs/_spry.html.haml (8.9ms)
+Rendered site/labs/_ruby-unix.html.haml (10.4ms)
+Rendered site/labs/_cancan.html.haml (10.4ms)
+Rendered site/labs/_asciicasts.html.haml (11.9ms)
+Rendered site/labs/_performance.html.haml (10.5ms)
+Rendered site/labs/_dojorn.html.haml (10.7ms)
+Rendered site/_labs.html.haml (97.5ms)
+Rendered site/staff/_cgm.html.haml (5.1ms)
+Rendered site/_me.html.haml (12.1ms)
+Rendered site/_social.html.haml (18.7ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.3ms)
+Rendered layouts/_footer.html.haml (9.8ms)
+Rendered layouts/_google_analytics.html.haml (2.8ms)
+Rendered site/index.html.haml within layouts/site (346.0ms)
+Completed 200 OK in 437ms (Views: 353.4ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:29:50 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:39:36 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (5.4ms)
+Rendered site/portfolio/_ddex.html.haml (15.8ms)
+Rendered site/portfolio/_escolhanome.html.haml (19.3ms)
+Rendered site/portfolio/_omega5.html.haml (11.2ms)
+Rendered site/portfolio/_androidday.html.haml (10.7ms)
+Rendered site/_portfolio.html.haml (75.8ms)
+Rendered site/method/_agile.html.haml (8.5ms)
+Rendered site/method/_quality.html.haml (5.5ms)
+Rendered site/method/_tech.html.haml (5.8ms)
+Rendered site/_method.html.haml (34.8ms)
+Rendered site/labs/_urele.html.haml (11.7ms)
+Rendered site/labs/_spry.html.haml (21.2ms)
+Rendered site/labs/_ruby-unix.html.haml (13.6ms)
+Rendered site/labs/_cancan.html.haml (12.5ms)
+Rendered site/labs/_asciicasts.html.haml (13.1ms)
+Rendered site/labs/_performance.html.haml (12.1ms)
+Rendered site/labs/_dojorn.html.haml (13.7ms)
+Rendered site/_labs.html.haml (135.2ms)
+Rendered site/staff/_cgm.html.haml (6.7ms)
+Rendered site/_me.html.haml (14.9ms)
+Rendered site/_social.html.haml (20.9ms)
+Rendered layouts/_cgm.html.haml (61.1ms)
+Rendered layouts/_navigation.html.haml (10.0ms)
+Rendered layouts/_footer.html.haml (10.1ms)
+Rendered layouts/_google_analytics.html.haml (2.6ms)
+Rendered site/index.html.haml within layouts/site (422.7ms)
+Completed 200 OK in 457ms (Views: 430.7ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:39:37 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:39:57 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (4.8ms)
+Rendered site/portfolio/_ddex.html.haml (14.6ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.5ms)
+Rendered site/portfolio/_omega5.html.haml (11.9ms)
+Rendered site/portfolio/_androidday.html.haml (9.7ms)
+Rendered site/_portfolio.html.haml (60.2ms)
+Rendered site/method/_agile.html.haml (5.1ms)
+Rendered site/method/_quality.html.haml (5.3ms)
+Rendered site/method/_tech.html.haml (5.4ms)
+Rendered site/_method.html.haml (29.5ms)
+Rendered site/labs/_urele.html.haml (11.1ms)
+Rendered site/labs/_spry.html.haml (9.3ms)
+Rendered site/labs/_ruby-unix.html.haml (10.7ms)
+Rendered site/labs/_cancan.html.haml (10.8ms)
+Rendered site/labs/_asciicasts.html.haml (12.1ms)
+Rendered site/labs/_performance.html.haml (10.9ms)
+Rendered site/labs/_dojorn.html.haml (69.3ms)
+Rendered site/_labs.html.haml (159.4ms)
+Rendered site/staff/_cgm.html.haml (5.3ms)
+Rendered site/_me.html.haml (12.5ms)
+Rendered site/_social.html.haml (19.3ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.8ms)
+Rendered layouts/_footer.html.haml (10.0ms)
+Rendered layouts/_google_analytics.html.haml (3.0ms)
+Rendered site/index.html.haml within layouts/site (373.6ms)
+Completed 200 OK in 397ms (Views: 381.0ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:39:58 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/cogumm.net/en" for 127.0.0.1 at 2011-06-08 23:44:31 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (5.4ms)
+Rendered site/portfolio/_ddex.html.haml (15.4ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.7ms)
+Rendered site/portfolio/_omega5.html.haml (10.7ms)
+Rendered site/portfolio/_androidday.html.haml (10.2ms)
+Rendered site/_portfolio.html.haml (60.7ms)
+Rendered site/method/_agile.html.haml (5.4ms)
+Rendered site/method/_quality.html.haml (6.3ms)
+Rendered site/method/_tech.html.haml (5.1ms)
+Rendered site/_method.html.haml (30.4ms)
+Rendered site/labs/_urele.html.haml (12.4ms)
+Rendered site/labs/_spry.html.haml (66.9ms)
+Rendered site/labs/_ruby-unix.html.haml (10.5ms)
+Rendered site/labs/_cancan.html.haml (10.6ms)
+Rendered site/labs/_asciicasts.html.haml (11.6ms)
+Rendered site/labs/_performance.html.haml (11.1ms)
+Rendered site/labs/_dojorn.html.haml (11.0ms)
+Rendered site/_labs.html.haml (158.3ms)
+Rendered site/staff/_cgm.html.haml (5.3ms)
+Rendered site/_me.html.haml (12.3ms)
+Rendered site/_social.html.haml (19.0ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.3ms)
+Rendered layouts/_footer.html.haml (9.8ms)
+Rendered layouts/_google_analytics.html.haml (2.8ms)
+Rendered site/index.html.haml within layouts/site (360.9ms)
+Completed 200 OK in 384ms (Views: 368.4ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:44:31 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:44:37 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/cogumm.net/pt" for 127.0.0.1 at 2011-06-08 23:44:41 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (4.8ms)
+Rendered site/portfolio/_ddex.html.haml (14.8ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.8ms)
+Rendered site/portfolio/_omega5.html.haml (10.4ms)
+Rendered site/portfolio/_androidday.html.haml (9.8ms)
+Rendered site/_portfolio.html.haml (118.7ms)
+Rendered site/method/_agile.html.haml (5.0ms)
+Rendered site/method/_quality.html.haml (5.1ms)
+Rendered site/method/_tech.html.haml (5.5ms)
+Rendered site/_method.html.haml (29.2ms)
+Rendered site/labs/_urele.html.haml (10.7ms)
+Rendered site/labs/_spry.html.haml (9.9ms)
+Rendered site/labs/_ruby-unix.html.haml (11.4ms)
+Rendered site/labs/_cancan.html.haml (11.3ms)
+Rendered site/labs/_asciicasts.html.haml (12.6ms)
+Rendered site/labs/_performance.html.haml (11.3ms)
+Rendered site/labs/_dojorn.html.haml (11.7ms)
+Rendered site/_labs.html.haml (104.5ms)
+Rendered site/staff/_cgm.html.haml (5.8ms)
+Rendered site/_me.html.haml (13.5ms)
+Rendered site/_social.html.haml (20.4ms)
+Rendered layouts/_cgm.html.haml (4.6ms)
+Rendered layouts/_navigation.html.haml (9.4ms)
+Rendered layouts/_footer.html.haml (11.0ms)
+Rendered layouts/_google_analytics.html.haml (3.3ms)
+Rendered site/index.html.haml within layouts/site (371.8ms)
+Completed 200 OK in 396ms (Views: 379.6ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:44:42 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/cogumm.net/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:45:02 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 23:45:36 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost:3000/en
+Completed 302 Found in 30ms
+
+
+Started GET "/en" for 127.0.0.1 at 2011-06-08 23:45:37 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (470.1ms)
+Rendered site/portfolio/_ddex.html.haml (15.6ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.4ms)
+Rendered site/portfolio/_omega5.html.haml (10.9ms)
+Rendered site/portfolio/_androidday.html.haml (9.9ms)
+Rendered site/_portfolio.html.haml (60.3ms)
+Rendered site/method/_agile.html.haml (5.3ms)
+Rendered site/method/_quality.html.haml (5.3ms)
+Rendered site/method/_tech.html.haml (5.7ms)
+Rendered site/_method.html.haml (32.6ms)
+Rendered site/labs/_urele.html.haml (10.9ms)
+Rendered site/labs/_spry.html.haml (9.5ms)
+Rendered site/labs/_ruby-unix.html.haml (11.3ms)
+Rendered site/labs/_cancan.html.haml (11.0ms)
+Rendered site/labs/_asciicasts.html.haml (11.4ms)
+Rendered site/labs/_performance.html.haml (11.1ms)
+Rendered site/labs/_dojorn.html.haml (11.3ms)
+Rendered site/_labs.html.haml (102.4ms)
+Rendered site/staff/_cgm.html.haml (13.1ms)
+Rendered site/_me.html.haml (22.3ms)
+Rendered site/_social.html.haml (291.5ms)
+Rendered layouts/_cgm.html.haml (7.2ms)
+Rendered layouts/_navigation.html.haml (11.2ms)
+Rendered layouts/_footer.html.haml (11.3ms)
+Rendered layouts/_google_analytics.html.haml (3.2ms)
+Rendered site/index.html.haml within layouts/site (1094.2ms)
+Completed 200 OK in 1184ms (Views: 1111.7ms)
+
+
+Started GET "/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:45:39 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.8ms)
+
+
+Started GET "/pt" for 127.0.0.1 at 2011-06-08 23:45:52 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (5.3ms)
+Rendered site/portfolio/_ddex.html.haml (14.9ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.9ms)
+Rendered site/portfolio/_omega5.html.haml (10.6ms)
+Rendered site/portfolio/_androidday.html.haml (60.2ms)
+Rendered site/_portfolio.html.haml (110.7ms)
+Rendered site/method/_agile.html.haml (5.3ms)
+Rendered site/method/_quality.html.haml (5.3ms)
+Rendered site/method/_tech.html.haml (5.3ms)
+Rendered site/_method.html.haml (30.3ms)
+Rendered site/labs/_urele.html.haml (11.2ms)
+Rendered site/labs/_spry.html.haml (9.4ms)
+Rendered site/labs/_ruby-unix.html.haml (10.8ms)
+Rendered site/labs/_cancan.html.haml (11.0ms)
+Rendered site/labs/_asciicasts.html.haml (12.2ms)
+Rendered site/labs/_performance.html.haml (10.8ms)
+Rendered site/labs/_dojorn.html.haml (10.7ms)
+Rendered site/_labs.html.haml (101.1ms)
+Rendered site/staff/_cgm.html.haml (5.0ms)
+Rendered site/_me.html.haml (11.9ms)
+Rendered site/_social.html.haml (18.6ms)
+Rendered layouts/_cgm.html.haml (3.7ms)
+Rendered layouts/_navigation.html.haml (9.1ms)
+Rendered layouts/_footer.html.haml (9.4ms)
+Rendered layouts/_google_analytics.html.haml (3.0ms)
+Rendered site/index.html.haml within layouts/site (355.1ms)
+Completed 200 OK in 380ms (Views: 362.8ms)
+
+
+Started GET "/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:45:52 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:45:58 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/pt" for 127.0.0.1 at 2011-06-08 23:49:53 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (4.5ms)
+Rendered site/portfolio/_ddex.html.haml (13.9ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.2ms)
+Rendered site/portfolio/_omega5.html.haml (10.6ms)
+Rendered site/portfolio/_androidday.html.haml (9.6ms)
+Rendered site/_portfolio.html.haml (57.0ms)
+Rendered site/method/_agile.html.haml (4.8ms)
+Rendered site/method/_quality.html.haml (4.8ms)
+Rendered site/method/_tech.html.haml (4.7ms)
+Rendered site/_method.html.haml (27.1ms)
+Rendered site/labs/_urele.html.haml (10.6ms)
+Rendered site/labs/_spry.html.haml (9.0ms)
+Rendered site/labs/_ruby-unix.html.haml (10.4ms)
+Rendered site/labs/_cancan.html.haml (10.8ms)
+Rendered site/labs/_asciicasts.html.haml (65.7ms)
+Rendered site/labs/_performance.html.haml (10.9ms)
+Rendered site/labs/_dojorn.html.haml (10.9ms)
+Rendered site/_labs.html.haml (153.3ms)
+Rendered site/staff/_cgm.html.haml (5.1ms)
+Rendered site/_me.html.haml (12.1ms)
+Rendered site/_social.html.haml (19.1ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.1ms)
+Rendered layouts/_footer.html.haml (9.1ms)
+Rendered layouts/_google_analytics.html.haml (2.4ms)
+Rendered site/index.html.haml within layouts/site (346.0ms)
+Completed 200 OK in 369ms (Views: 352.9ms)
+
+
+Started GET "/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:49:53 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/pt" for 127.0.0.1 at 2011-06-08 23:50:22 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (4.8ms)
+Rendered site/portfolio/_ddex.html.haml (14.5ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.9ms)
+Rendered site/portfolio/_omega5.html.haml (10.1ms)
+Rendered site/portfolio/_androidday.html.haml (9.8ms)
+Rendered site/_portfolio.html.haml (58.4ms)
+Rendered site/method/_agile.html.haml (5.0ms)
+Rendered site/method/_quality.html.haml (5.0ms)
+Rendered site/method/_tech.html.haml (4.4ms)
+Rendered site/_method.html.haml (27.4ms)
+Rendered site/labs/_urele.html.haml (10.6ms)
+Rendered site/labs/_spry.html.haml (8.9ms)
+Rendered site/labs/_ruby-unix.html.haml (10.4ms)
+Rendered site/labs/_cancan.html.haml (10.8ms)
+Rendered site/labs/_asciicasts.html.haml (11.5ms)
+Rendered site/labs/_performance.html.haml (10.5ms)
+Rendered site/labs/_dojorn.html.haml (10.7ms)
+Rendered site/_labs.html.haml (153.2ms)
+Rendered site/staff/_cgm.html.haml (5.7ms)
+Rendered site/_me.html.haml (13.1ms)
+Rendered site/_social.html.haml (18.6ms)
+Rendered layouts/_cgm.html.haml (3.7ms)
+Rendered layouts/_navigation.html.haml (9.1ms)
+Rendered layouts/_footer.html.haml (19.5ms)
+Rendered layouts/_google_analytics.html.haml (2.8ms)
+Rendered site/index.html.haml within layouts/site (360.1ms)
+Completed 200 OK in 384ms (Views: 367.3ms)
+
+
+Started GET "/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:50:23 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+
+Started GET "/pt" for 127.0.0.1 at 2011-06-08 23:50:45 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (431.0ms)
+Rendered site/portfolio/_ddex.html.haml (15.2ms)
+Rendered site/portfolio/_escolhanome.html.haml (11.3ms)
+Rendered site/portfolio/_omega5.html.haml (13.3ms)
+Rendered site/portfolio/_androidday.html.haml (11.9ms)
+Rendered site/_portfolio.html.haml (82.8ms)
+Rendered site/method/_agile.html.haml (5.6ms)
+Rendered site/method/_quality.html.haml (5.9ms)
+Rendered site/method/_tech.html.haml (4.7ms)
+Rendered site/_method.html.haml (31.6ms)
+Rendered site/labs/_urele.html.haml (13.2ms)
+Rendered site/labs/_spry.html.haml (10.0ms)
+Rendered site/labs/_ruby-unix.html.haml (12.2ms)
+Rendered site/labs/_cancan.html.haml (12.9ms)
+Rendered site/labs/_asciicasts.html.haml (11.3ms)
+Rendered site/labs/_performance.html.haml (10.4ms)
+Rendered site/labs/_dojorn.html.haml (11.2ms)
+Rendered site/_labs.html.haml (107.9ms)
+Rendered site/staff/_cgm.html.haml (5.0ms)
+Rendered site/_me.html.haml (12.0ms)
+Rendered site/_social.html.haml (128.7ms)
+Rendered layouts/_cgm.html.haml (4.2ms)
+Rendered layouts/_navigation.html.haml (9.3ms)
+Rendered layouts/_footer.html.haml (9.9ms)
+Rendered layouts/_google_analytics.html.haml (2.5ms)
+Rendered site/index.html.haml within layouts/site (871.1ms)
+Completed 200 OK in 924ms (Views: 878.8ms)
+
+
+Started GET "/images/method/quality.gif" for 127.0.0.1 at 2011-06-08 23:50:47 -0300
+
+ActionController::RoutingError (No route matches "/images/method/quality.gif"):
+  
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.1ms)
+
+
+Started GET "/pt" for 127.0.0.1 at 2011-06-08 23:51:15 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (4.6ms)
+Rendered site/portfolio/_ddex.html.haml (14.4ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.4ms)
+Rendered site/portfolio/_omega5.html.haml (10.0ms)
+Rendered site/portfolio/_androidday.html.haml (9.6ms)
+Rendered site/_portfolio.html.haml (58.0ms)
+Rendered site/method/_agile.html.haml (4.9ms)
+Rendered site/method/_quality.html.haml (4.3ms)
+Rendered site/method/_tech.html.haml (5.3ms)
+Rendered site/_method.html.haml (28.1ms)
+Rendered site/labs/_urele.html.haml (10.5ms)
+Rendered site/labs/_spry.html.haml (8.7ms)
+Rendered site/labs/_ruby-unix.html.haml (10.2ms)
+Rendered site/labs/_cancan.html.haml (11.0ms)
+Rendered site/labs/_asciicasts.html.haml (11.9ms)
+Rendered site/labs/_performance.html.haml (10.6ms)
+Rendered site/labs/_dojorn.html.haml (11.0ms)
+Rendered site/_labs.html.haml (97.9ms)
+Rendered site/staff/_cgm.html.haml (5.6ms)
+Rendered site/_me.html.haml (12.7ms)
+Rendered site/_social.html.haml (71.9ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.3ms)
+Rendered layouts/_footer.html.haml (9.8ms)
+Rendered layouts/_google_analytics.html.haml (2.5ms)
+Rendered site/index.html.haml within layouts/site (348.2ms)
+Completed 200 OK in 370ms (Views: 355.4ms)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 23:52:08 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost:3000/en
+Completed 302 Found in 29ms
+
+
+Started GET "/en" for 127.0.0.1 at 2011-06-08 23:52:09 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (326.7ms)
+Rendered site/portfolio/_ddex.html.haml (14.3ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.2ms)
+Rendered site/portfolio/_omega5.html.haml (10.5ms)
+Rendered site/portfolio/_androidday.html.haml (9.6ms)
+Rendered site/_portfolio.html.haml (57.7ms)
+Rendered site/method/_agile.html.haml (4.9ms)
+Rendered site/method/_quality.html.haml (4.2ms)
+Rendered site/method/_tech.html.haml (5.3ms)
+Rendered site/_method.html.haml (27.4ms)
+Rendered site/labs/_urele.html.haml (11.0ms)
+Rendered site/labs/_spry.html.haml (9.0ms)
+Rendered site/labs/_ruby-unix.html.haml (10.3ms)
+Rendered site/labs/_cancan.html.haml (10.8ms)
+Rendered site/labs/_asciicasts.html.haml (11.3ms)
+Rendered site/labs/_performance.html.haml (10.3ms)
+Rendered site/labs/_dojorn.html.haml (11.5ms)
+Rendered site/_labs.html.haml (98.9ms)
+Rendered site/staff/_cgm.html.haml (15.8ms)
+Rendered site/_me.html.haml (24.8ms)
+Rendered site/_social.html.haml (116.2ms)
+Rendered layouts/_cgm.html.haml (3.9ms)
+Rendered layouts/_navigation.html.haml (10.2ms)
+Rendered layouts/_footer.html.haml (9.7ms)
+Rendered layouts/_google_analytics.html.haml (2.7ms)
+Rendered site/index.html.haml within layouts/site (729.2ms)
+Completed 200 OK in 779ms (Views: 736.6ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2011-06-08 23:54:18 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (4.5ms)
+Rendered site/portfolio/_ddex.html.haml (13.9ms)
+Rendered site/portfolio/_escolhanome.html.haml (8.9ms)
+Rendered site/portfolio/_omega5.html.haml (10.0ms)
+Rendered site/portfolio/_androidday.html.haml (9.8ms)
+Rendered site/_portfolio.html.haml (57.1ms)
+Rendered site/method/_agile.html.haml (4.8ms)
+Rendered site/method/_quality.html.haml (4.1ms)
+Rendered site/method/_tech.html.haml (4.7ms)
+Rendered site/_method.html.haml (26.4ms)
+Rendered site/labs/_urele.html.haml (10.8ms)
+Rendered site/labs/_spry.html.haml (8.9ms)
+Rendered site/labs/_ruby-unix.html.haml (10.2ms)
+Rendered site/labs/_cancan.html.haml (10.3ms)
+Rendered site/labs/_asciicasts.html.haml (11.2ms)
+Rendered site/labs/_performance.html.haml (11.0ms)
+Rendered site/labs/_dojorn.html.haml (10.8ms)
+Rendered site/_labs.html.haml (96.7ms)
+Rendered site/staff/_cgm.html.haml (5.2ms)
+Rendered site/_me.html.haml (12.1ms)
+Rendered site/_social.html.haml (19.3ms)
+Rendered layouts/_cgm.html.haml (67.1ms)
+Rendered layouts/_navigation.html.haml (9.5ms)
+Rendered layouts/_footer.html.haml (9.9ms)
+Rendered layouts/_google_analytics.html.haml (2.7ms)
+Rendered site/index.html.haml within layouts/site (354.7ms)
+Completed 200 OK in 376ms (Views: 362.1ms)
+
+
+Started GET "/pt" for 127.0.0.1 at 2011-06-08 23:54:23 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (4.8ms)
+Rendered site/portfolio/_ddex.html.haml (14.2ms)
+Rendered site/portfolio/_escolhanome.html.haml (8.8ms)
+Rendered site/portfolio/_omega5.html.haml (10.5ms)
+Rendered site/portfolio/_androidday.html.haml (9.4ms)
+Rendered site/_portfolio.html.haml (57.3ms)
+Rendered site/method/_agile.html.haml (5.8ms)
+Rendered site/method/_quality.html.haml (4.8ms)
+Rendered site/method/_tech.html.haml (5.1ms)
+Rendered site/_method.html.haml (29.9ms)
+Rendered site/labs/_urele.html.haml (11.1ms)
+Rendered site/labs/_spry.html.haml (9.4ms)
+Rendered site/labs/_ruby-unix.html.haml (10.9ms)
+Rendered site/labs/_cancan.html.haml (11.0ms)
+Rendered site/labs/_asciicasts.html.haml (11.9ms)
+Rendered site/labs/_performance.html.haml (11.1ms)
+Rendered site/labs/_dojorn.html.haml (11.3ms)
+Rendered site/_labs.html.haml (101.5ms)
+Rendered site/staff/_cgm.html.haml (5.2ms)
+Rendered site/_me.html.haml (12.5ms)
+Rendered site/_social.html.haml (19.7ms)
+Rendered layouts/_cgm.html.haml (4.1ms)
+Rendered layouts/_navigation.html.haml (9.8ms)
+Rendered layouts/_footer.html.haml (10.0ms)
+Rendered layouts/_google_analytics.html.haml (2.7ms)
+Rendered site/index.html.haml within layouts/site (303.3ms)
+Completed 200 OK in 326ms (Views: 310.7ms)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+
+Started GET "/pt" for 127.0.0.1 at 2011-06-08 23:56:13 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (322.6ms)
+Rendered site/portfolio/_ddex.html.haml (14.1ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.0ms)
+ERROR: compiling _app_views_site_portfolio__omega__html_haml___731957330_90879600_48932712 RAISED /var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:16: syntax error, unexpected ')'
+));}\n      #{_hamlout.format_...
+ ^
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: unknown regexp options - dv
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: syntax error, unexpected $undefined
+...n    <div class='clear'></div>\n  </section>\n</div>\n", -3,...
+...                               ^
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: unknown regexp options - dv
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: syntax error, unexpected $undefined
+...'></div>\n  </section>\n</div>\n", -3, false);::Haml::Util.h...
+...                               ^
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: unterminated string meets end of file
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _app_views_site_portfolio__omega__html_haml___731957330_90879600_48932712(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "site/portfolio/_omega5";_old_output_buffer = @output_buffer;omega5 = local_assigns[:omega5];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<div class='wrapper'>\n  <section>\n    <div class='work_showcase_info'>\n      <h3>\n        #{
+
+
+
+_hamlout.adjust_tabs(4); _hamlout.format_script_false_false_false_false_false_true_false(("#{Haml::Helpers.html_escape(image_tag('portfolio/omega/omega_logo.png', :alt => 'Ômega 5', :size => "158x90"))}"
+));}\n      </h3>\n      <p>\n        #{
+_hamlout.format_script_false_false_false_false_false_true_false(("#{Haml::Helpers.html_escape(t('omega.description'))}"
+));}\n      </p>\n      <div class='portfolio_links'>\n        <p>\n          #{
+
+_hamlout.adjust_tabs(1); _hamlout.format_script_false_false_false_false_false_true_false(("#{Haml::Helpers.html_escape(link_to 'Visitar website', 'http://labs.cogumm.net/omega5/', :class => 'twitter cgm_button', :target => :_blank )}"
+));}\n        </p>\n        <div class='clear'></div>\n        <hr>\n        <h4>#{
+
+_hamlout.format_script_false_true_false_false_false_true_false(("#{Haml::Helpers.html_escape(t('omega.alert'))}"
+));}</h4>\n      </div>\n    </div>\n    <div class='work_showcase_image'>\n      #{
+_hamlout.adjust_tabs(-1); _hamlout.format_script_false_false_false_true_false_true_false(( link_to 'http://labs.cogumm.net/omega5/', :target => "_blank" do
+));}\n      #{_hamlout.format_script_false_false_false_false_false_true_false(("#{Haml::Helpers.html_escape(image_tag 'portfolio/omega/omega5.png', :title => 'Ômega 5', :alt => 'Ômega 5', :size => "550x390" )}"
+));}\n    </div>\n    <div class='clear'></div>\n  </section>\n</div>\n", -3, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/template.rb:255:in `module_eval'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/template.rb:255:in `compile'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/template.rb:134:in `block in render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:54:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/template.rb:127:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/partials.rb:333:in `render_partial'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/partials.rb:262:in `block in render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/partials.rb:260:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/partials.rb:378:in `_render_partial'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:31:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.18/lib/haml/helpers/action_view_mods.rb:11:in `block in render_with_haml'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.18/lib/haml/helpers.rb:90:in `non_haml'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.18/lib/haml/helpers/action_view_mods.rb:11:in `render_with_haml'
+/var/rails/cogumm.net/app/views/site/_portfolio.html.haml:6:in `_app_views_site__portfolio_html_haml__749032130_93019730__507786472'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/template.rb:135:in `block in render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:54:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/template.rb:127:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/partials.rb:333:in `render_partial'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/partials.rb:262:in `block in render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/partials.rb:260:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/partials.rb:378:in `_render_partial'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:31:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.18/lib/haml/helpers/action_view_mods.rb:11:in `block in render_with_haml'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.18/lib/haml/helpers.rb:90:in `non_haml'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.18/lib/haml/helpers/action_view_mods.rb:11:in `render_with_haml'
+/var/rails/cogumm.net/app/views/site/index.html.haml:2:in `_app_views_site_index_html_haml___193300446_91388310__64261758'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/template.rb:135:in `block in render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:54:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/template.rb:127:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:26:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.18/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:114:in `_render_template'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:92:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/cogumm/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:151:in `process_action'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:435:in `_run__461433281__process_action__1029748927__callbacks'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:120:in `process'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:40:in `process'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal.rb:138:in `dispatch'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_controller/metal.rb:178:in `block in action'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `block in call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.18/lib/sass/plugin/rack.rb:41:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/cookies.rb:295:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.3/lib/rails/rack/logger.rb:13:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.3/lib/rails/application.rb:168:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.3/lib/rails/application.rb:77:in `method_missing'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/chunked.rb:15:in `call'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/handler/mongrel.rb:67:in `process'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:165:in `block in process_client'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:164:in `each'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:164:in `process_client'
+/home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:291:in `block (2 levels) in run'
+Rendered site/portfolio/_omega5.html.haml (8.6ms)
+Rendered site/_portfolio.html.haml (43.1ms)
+Rendered site/index.html.haml within layouts/site (373.4ms)
+Completed   in 423ms
+
+ActionView::Template::Error (/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:16: syntax error, unexpected ')'
+));}\n      #{_hamlout.format_...
+ ^
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: unknown regexp options - dv
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: syntax error, unexpected $undefined
+...n    <div class='clear'></div>\n  </section>\n</div>\n", -3,...
+...                               ^
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: unknown regexp options - dv
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: syntax error, unexpected $undefined
+...'></div>\n  </section>\n</div>\n", -3, false);::Haml::Util.h...
+...                               ^
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: unterminated string meets end of file
+/var/rails/cogumm.net/app/views/site/portfolio/_omega5.html.haml:17: syntax error, unexpected $end, expecting keyword_end):
+    13:         %h4 #{t('omega.alert')}
+    14:     .work_showcase_image
+    15:       = link_to 'http://labs.cogumm.net/omega5/', :target => "_blank" do 
+    16:       #{image_tag 'portfolio/omega/omega5.png', :title => 'Ômega 5', :alt => 'Ômega 5', :size => "550x390" }
+    17:     .clear
+  app/views/site/_portfolio.html.haml:6:in `_app_views_site__portfolio_html_haml__749032130_93019730__507786472'
+  app/views/site/index.html.haml:2:in `_app_views_site_index_html_haml___193300446_91388310__64261758'
+
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.7ms)
+Rendered /home/cogumm/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.8ms)
+
+
+Started GET "/pt" for 127.0.0.1 at 2011-06-08 23:57:05 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (5.0ms)
+Rendered site/portfolio/_ddex.html.haml (14.7ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.0ms)
+Rendered site/portfolio/_omega5.html.haml (60.7ms)
+Rendered site/portfolio/_androidday.html.haml (9.4ms)
+Rendered site/_portfolio.html.haml (108.6ms)
+Rendered site/method/_agile.html.haml (4.9ms)
+Rendered site/method/_quality.html.haml (4.2ms)
+Rendered site/method/_tech.html.haml (4.8ms)
+Rendered site/_method.html.haml (27.5ms)
+Rendered site/labs/_urele.html.haml (10.4ms)
+Rendered site/labs/_spry.html.haml (9.0ms)
+Rendered site/labs/_ruby-unix.html.haml (10.5ms)
+Rendered site/labs/_cancan.html.haml (10.4ms)
+Rendered site/labs/_asciicasts.html.haml (11.2ms)
+Rendered site/labs/_performance.html.haml (10.4ms)
+Rendered site/labs/_dojorn.html.haml (22.6ms)
+Rendered site/_labs.html.haml (108.1ms)
+Rendered site/staff/_cgm.html.haml (6.1ms)
+Rendered site/_me.html.haml (13.8ms)
+Rendered site/_social.html.haml (60.4ms)
+Rendered layouts/_cgm.html.haml (4.6ms)
+Rendered layouts/_navigation.html.haml (10.6ms)
+Rendered layouts/_footer.html.haml (10.7ms)
+Rendered layouts/_google_analytics.html.haml (2.7ms)
+Rendered site/index.html.haml within layouts/site (405.3ms)
+Completed 200 OK in 428ms (Views: 412.6ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2011-06-08 23:57:36 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (4.6ms)
+Rendered site/portfolio/_ddex.html.haml (13.8ms)
+Rendered site/portfolio/_escolhanome.html.haml (8.6ms)
+Rendered site/portfolio/_omega5.html.haml (9.7ms)
+Rendered site/portfolio/_androidday.html.haml (9.4ms)
+Rendered site/_portfolio.html.haml (55.5ms)
+Rendered site/method/_agile.html.haml (4.8ms)
+Rendered site/method/_quality.html.haml (4.1ms)
+Rendered site/method/_tech.html.haml (4.7ms)
+Rendered site/_method.html.haml (26.4ms)
+Rendered site/labs/_urele.html.haml (10.8ms)
+Rendered site/labs/_spry.html.haml (8.8ms)
+Rendered site/labs/_ruby-unix.html.haml (10.2ms)
+Rendered site/labs/_cancan.html.haml (10.5ms)
+Rendered site/labs/_asciicasts.html.haml (61.1ms)
+Rendered site/labs/_performance.html.haml (10.9ms)
+Rendered site/labs/_dojorn.html.haml (11.7ms)
+Rendered site/_labs.html.haml (147.8ms)
+Rendered site/staff/_cgm.html.haml (5.1ms)
+Rendered site/_me.html.haml (12.1ms)
+Rendered site/_social.html.haml (18.3ms)
+Rendered layouts/_cgm.html.haml (3.8ms)
+Rendered layouts/_navigation.html.haml (9.1ms)
+Rendered layouts/_footer.html.haml (9.6ms)
+Rendered layouts/_google_analytics.html.haml (2.4ms)
+Rendered site/index.html.haml within layouts/site (337.8ms)
+Completed 200 OK in 359ms (Views: 345.1ms)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 00:59:03 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost:3000/en
+Completed 302 Found in 30ms
+
+
+Started GET "/en" for 127.0.0.1 at 2011-06-09 00:59:03 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (348.0ms)
+Rendered site/portfolio/_ddex.html.haml (15.4ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.6ms)
+Rendered site/portfolio/_omega5.html.haml (10.3ms)
+Rendered site/portfolio/_androidday.html.haml (9.9ms)
+Rendered site/_portfolio.html.haml (60.6ms)
+Rendered site/method/_agile.html.haml (5.7ms)
+Rendered site/method/_quality.html.haml (4.4ms)
+Rendered site/method/_tech.html.haml (5.5ms)
+Rendered site/_method.html.haml (29.8ms)
+Rendered site/labs/_urele.html.haml (10.7ms)
+Rendered site/labs/_spry.html.haml (10.6ms)
+Rendered site/labs/_ruby-unix.html.haml (11.0ms)
+Rendered site/labs/_cancan.html.haml (10.7ms)
+Rendered site/labs/_asciicasts.html.haml (12.0ms)
+Rendered site/labs/_performance.html.haml (11.2ms)
+Rendered site/labs/_dojorn.html.haml (11.4ms)
+Rendered site/_labs.html.haml (103.2ms)
+Rendered site/staff/_cgm.html.haml (5.6ms)
+Rendered site/_me.html.haml (13.5ms)
+Rendered site/_social.html.haml (104.2ms)
+Rendered layouts/_cgm.html.haml (3.9ms)
+Rendered layouts/_navigation.html.haml (9.6ms)
+Rendered layouts/_footer.html.haml (10.0ms)
+Rendered layouts/_google_analytics.html.haml (3.0ms)
+Rendered site/index.html.haml within layouts/site (736.6ms)
+Completed 200 OK in 788ms (Views: 744.7ms)
+
+
+Started GET "/pt" for 127.0.0.1 at 2011-06-09 00:59:11 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (4.5ms)
+Rendered site/portfolio/_ddex.html.haml (13.8ms)
+Rendered site/portfolio/_escolhanome.html.haml (8.6ms)
+Rendered site/portfolio/_omega5.html.haml (9.6ms)
+Rendered site/portfolio/_androidday.html.haml (9.2ms)
+Rendered site/_portfolio.html.haml (55.8ms)
+Rendered site/method/_agile.html.haml (4.9ms)
+Rendered site/method/_quality.html.haml (4.1ms)
+Rendered site/method/_tech.html.haml (4.8ms)
+Rendered site/_method.html.haml (27.1ms)
+Rendered site/labs/_urele.html.haml (10.5ms)
+Rendered site/labs/_spry.html.haml (10.0ms)
+Rendered site/labs/_ruby-unix.html.haml (12.1ms)
+Rendered site/labs/_cancan.html.haml (60.2ms)
+Rendered site/labs/_asciicasts.html.haml (11.8ms)
+Rendered site/labs/_performance.html.haml (10.5ms)
+Rendered site/labs/_dojorn.html.haml (11.1ms)
+Rendered site/_labs.html.haml (151.0ms)
+Rendered site/staff/_cgm.html.haml (5.1ms)
+Rendered site/_me.html.haml (12.5ms)
+Rendered site/_social.html.haml (18.6ms)
+Rendered layouts/_cgm.html.haml (3.9ms)
+Rendered layouts/_navigation.html.haml (9.1ms)
+Rendered layouts/_footer.html.haml (9.1ms)
+Rendered layouts/_google_analytics.html.haml (2.5ms)
+Rendered site/index.html.haml within layouts/site (342.5ms)
+Completed 200 OK in 364ms (Views: 349.6ms)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+
+Started GET "/cogumm.net" for 127.0.0.1 at 2011-06-09 01:35:58 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost/en
+Completed 302 Found in 33ms
+
+
+Started GET "/cogumm.net/pt" for 127.0.0.1 at 2011-06-09 01:36:11 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"pt"}
+Rendered site/_description.html.haml (353.8ms)
+Rendered site/portfolio/_ddex.html.haml (15.2ms)
+Rendered site/portfolio/_escolhanome.html.haml (9.1ms)
+Rendered site/portfolio/_omega5.html.haml (10.0ms)
+Rendered site/portfolio/_androidday.html.haml (9.9ms)
+Rendered site/_portfolio.html.haml (58.3ms)
+Rendered site/method/_agile.html.haml (4.9ms)
+Rendered site/method/_quality.html.haml (4.7ms)
+Rendered site/method/_tech.html.haml (5.0ms)
+Rendered site/_method.html.haml (27.7ms)
+Rendered site/labs/_urele.html.haml (10.9ms)
+Rendered site/labs/_spry.html.haml (9.1ms)
+Rendered site/labs/_ruby-unix.html.haml (10.5ms)
+Rendered site/labs/_cancan.html.haml (11.0ms)
+Rendered site/labs/_asciicasts.html.haml (11.5ms)
+Rendered site/labs/_performance.html.haml (10.7ms)
+Rendered site/labs/_dojorn.html.haml (10.8ms)
+Rendered site/_labs.html.haml (98.1ms)
+Rendered site/staff/_cgm.html.haml (5.6ms)
+Rendered site/_me.html.haml (12.7ms)
+Rendered site/_social.html.haml (47.5ms)
+Rendered layouts/_cgm.html.haml (3.9ms)
+Rendered layouts/_navigation.html.haml (9.7ms)
+Rendered layouts/_footer.html.haml (9.7ms)
+Rendered layouts/_google_analytics.html.haml (2.5ms)
+Rendered site/index.html.haml within layouts/site (738.0ms)
+Completed 200 OK in 842ms (Views: 745.6ms)

@@ -1,0 +1,14 @@
+%article.labs_project
+  .project_language #{image_tag 'labs/ruby.png', :title => 'Ruby', :size => '24x24'} #{image_tag 'labs/mysql.png', :title => 'MySQL', :size => '50x25'}
+  .project_image #{link_to image_tag('labs/urele.jpg', :size => '100x100'), image_path('labs/urele.jpg'), :rel => 'shadowbox[CoGUMm Labs - URELE.com]'}
+  .project_info
+    %h2.project_title #{link_to 'Urele', 'http://urele.com', :target => :_blank}
+    %h4.project_author #{link_to 'Hamilton C. Neto', 'http://twitter.com/#!/hamiltoncneto', :target => :_blank}
+    %p.project_description= raw t('labs.urele.desc')
+  .clear
+  %hr
+  .project_actions
+    .install
+      %code Leia mais sobre o URELE.com
+    .action.download #{link_to 'AQUI', 'http://cogumm.net/blog/16/02/2011/o-que-voce-deseja-compartilhar-hoje/', :target => :_blank}
+    .clear

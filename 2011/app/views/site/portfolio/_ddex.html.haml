@@ -1,0 +1,26 @@
+.wrapper
+  #portfolio.work_showcase
+    %section
+      .work_showcase_info
+        %h3
+          #{image_tag('http://www.ddex.com.br/novo/images/logo.png', :alt => 'DDEX')}
+        %p
+          #{t('ddex.description')}
+        .portfolio_links
+          %p
+            #{link_to 'Visitar website', 'http://www.ddex.com.br', :class => 'twitter cgm_button', :target => :_blank }
+            #{link_to 'Código fonte', 'https://github.com/cogumm/DDEX', :class => 'twitter cgm_button', :target => :_blank }
+          .clear
+          %hr
+          %h4 #{t('ddex.screenshots')}
+          %ul.showcase_more_images
+            %li
+              #{link_to image_tag('portfolio/ddex/02_principal.png', :size => "90x70"), image_path('portfolio/ddex/02_principal.png'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
+            %li
+              #{link_to image_tag("portfolio/ddex/03_cadastroCli.png", :size => "90x70"), image_path('portfolio/ddex/03_cadastroCli.png'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
+            %li
+              #{link_to image_tag("portfolio/ddex/04_listagemCli.png", :size => "90x70"), image_path('portfolio/ddex/04_listagemCli.png'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
+      .work_showcase_image
+        = link_to 'http://www.ddex.com.br', :target => "_blank" do 
+          #{image_tag "portfolio/ddex/01_login.png", :title => 'DDEX', :alt => 'DDEX', :size => "550x390" }
+      .clear

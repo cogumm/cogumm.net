@@ -1,0 +1,17 @@
+.wrapper
+  %section
+    .work_showcase_info
+      %h3
+        #{image_tag('portfolio/omega/omega_logo.png', :alt => 'Ômega 5', :size => "158x90")}
+      %p
+        #{t('omega.description')}
+      .portfolio_links
+        %p
+          #{link_to 'Visitar website', 'http://labs.cogumm.net/omega5/', :class => 'twitter cgm_button', :target => :_blank }
+        .clear
+        %hr
+        %h4 #{t('omega.alert')}
+    .work_showcase_image
+      = link_to 'http://labs.cogumm.net/omega5/', :target => "_blank" do 
+        #{image_tag 'portfolio/omega/omega5.png', :title => 'Ômega 5', :alt => 'Ômega 5', :size => "550x390" }
+    .clear

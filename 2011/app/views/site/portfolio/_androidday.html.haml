@@ -1,0 +1,17 @@
+.wrapper
+  %section
+    .work_showcase_info
+      %h3
+        #{image_tag('http://labs.cogumm.net/androidday/public/img/android-logo.gif', :alt => '#AndroidDay', :size => "158x90")}
+      %p
+        #{t('androidday.description')}
+      .portfolio_links
+        %p
+          #{link_to 'Visitar website', 'http://labs.cogumm.net/androidday/', :class => 'twitter cgm_button', :target => :_blank }
+        .clear
+        %hr
+        %h4 #{t('androidday.alert')}
+    .work_showcase_image
+      = link_to 'http://labs.cogumm.net/androidday/', :target => "_blank" do 
+        #{image_tag 'portfolio/androidday/androidday.png', :title => '#AndroidDay', :alt => '#AndroidDay', :size => "550x390" }
+    .clear

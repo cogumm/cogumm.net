@@ -1,0 +1,15 @@
+%article.labs_project
+  .project_language #{image_tag 'labs/ruby.png', :title => 'Ruby', :size => '24x24'}
+  .project_image #{image_tag('labs/blank.jpg', :size => '100x100')}
+  .project_info
+    %h2.project_title #{link_to 'CanCan Translate', 'https://github.com/cogumm/cancan', :target => :_blank}
+    %h4.project_author #{link_to 'Gabriel Feitosa Vilar', 'http://github.com/cogumm', :target => :_blank}
+    %p.project_description= raw t('labs.cancan.desc')
+  .clear
+  %hr
+  .project_actions
+    .install
+      %code git clone git@github.com:cogumm/cancan.git
+    .action.view_source #{link_to t('labs.source'), 'https://github.com/cogumm/cancan', :target => :_blank}
+    .action.download #{link_to 'download', 'https://github.com/cogumm/cancan/archives/master', :target => :_blank}
+    .clear

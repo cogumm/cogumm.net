@@ -1,0 +1,19 @@
+@import "blueprint"
+body
+  +blueprint-ie(true)
+  .wrapper
+    text-align: left
+  header
+    left: 0 !important
+    nav .right
+      position: relative
+      top: -10px
+      line-height: 0
+      a
+        line-height: 0
+  form
+    fieldset
+      input[type="text"], input[type="email"], input[type="password"], textarea
+        background-color: rgb(30,30,30)
+        &:focus
+          background-color: rgb(0,0,0)

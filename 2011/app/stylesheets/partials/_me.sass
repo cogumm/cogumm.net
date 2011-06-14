@@ -1,0 +1,59 @@
+body #cgm_me
+  background: $orange - #999
+  border-bottom: 1px solid ($orange - #1b9def)
+  h1
+    color: $orange - #222
+    text-shadow: ($orange + #333) 0 1px 1px
+  #gabriel_cogumm
+    +column(12)
+  #gabriel_cogumm
+    +two-box-shadow(($orange + #222) 0 1px 0, ($orange - #444) 0 1px 0 inset)
+    +rounded(4px)
+    height: 230px
+    width: 950px
+    background-color: ($orange - #2d2d2d)
+    background-clip: padding-box
+    margin-bottom: 1em
+    &:hover .picture
+      background-position: right top
+    .picture
+      +box-shadow(#333,0,0,3px)
+      +rounded(6px)
+      width: 84px
+      height: 84px
+      margin: 18px 0 16px 16px
+      border: 1px solid ($orange + #222)
+      background-position: left top
+      +transition(background-position, .2s, ease-in-out)
+    a
+      //color: ($orange + #2d2d2d)
+      color: $link_color
+      text-shadow: ($orange - #444) 0 -1px 0
+    .image
+      +column(3)
+    .info
+      +column(8, last)
+      padding-top: .75em
+      width: 800px
+      /*text-shadow: ($orange - $grey) 1px 1px 0 */
+      h4
+        padding: 7px 0 8px 0
+        font-size: 16px
+        text-color: #000
+      p
+        padding: 0
+        font-size: 12px
+        color: #000
+        margin: 0 0 .25em 0
+        em.alternate
+          font:
+            family: 'Baskerville', 'Palatino', 'Book Antiqua', 'serif'
+            size: 13px
+      p.links
+        font:
+          size: 12px
+          weight: 900
+        padding: 0
+        margin: 0 0 1em 0
+#gabriel_cogumm .picture
+  background-image: url(/images/staff/cgm_cgm.jpg)

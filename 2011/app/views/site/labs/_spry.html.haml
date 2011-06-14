@@ -1,0 +1,12 @@
+%article.labs_project
+  .project_language #{image_tag 'labs/ruby.png', :title => 'Ruby', :size => '24x24'} #{image_tag 'labs/postgresql.png', :title => 'PostgreSQL', :size => '24x24'}
+  .project_image #{image_tag('labs/blank.jpg', :size => '100x100')}
+  -#.project_image #{link_to image_tag('labs/blank.jpg', :size => '100x100'), image_path('labs/blank.jpg'), :rel => 'shadowbox[CoGUMm Labs - Spry]'}
+  .project_info  
+    %h2.project_title #{link_to 'Spry', '#'}
+    %h4.project_author #{link_to 'Gabriel Feitosa Vilar', 'http://github.com/cogumm', :target => :_blank}
+    %p.project_description= raw t 'labs.spry.desc'
+  .clear
+  %hr
+  .project_actions
+    .clear

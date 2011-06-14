@@ -1,0 +1,28 @@
+=rounded($radius)
+  border-radius:          $radius
+  -webkit-border-radius:  $radius
+  -moz-border-radius:     $radius
+  -o-border-radius:       $radius
+  -khtml-border-radius:   $radius
+=box-shadow($x, $y, $radius, $color)
+  box-shadow:         $x $y $radius $color
+  -webkit-box-shadow: $x $y $radius $color
+  -moz-box-shadow:    $x $y $radius $color
+  -o-box-shadow:  $x $y $radius $color
+  -khtml-box-shadow:  $x $y $radius $color
+=inset-box-shadow($x, $y, $radius, $color)
+  box-shadow:         $x $y $radius $color inset
+  -webkit-box-shadow: $x $y $radius $color inset
+  -moz-box-shadow:    $x $y $radius $color inset
+  -o-box-shadow:  $x $y $radius $color inset
+  -khtml-box-shadow:  $x $y $radius $color inset
+=two-box-shadow($box-shadow-one, $box-shadow-two)
+  box-shadow:         $box-shadow-one, $box-shadow-two
+  -webkit-box-shadow: $box-shadow-one, $box-shadow-two
+  -moz-box-shadow:    $box-shadow-one, $box-shadow-two
+  -o-box-shadow:  $box-shadow-one, $box-shadow-two
+  -khtml-box-shadow:  $box-shadow-one, $box-shadow-two
+=groove($color)
+  border: 0 none
+  border-top: 1px solid ($color - #444)
+  border-bottom: 1px solid $color
