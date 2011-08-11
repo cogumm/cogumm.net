@@ -2,7 +2,11 @@
   #cgm_contact
     %h1= t 'contact.title'
     %br
-    %h3= t('contact.alert')
+    -# %h3= t('contact.alert')
+    %a{ :href => "https://spreadsheets.google.com/spreadsheet/viewform?formkey=dEJMQmVYUnBSTE51a3FyR0RtWXhoSXc6MQ", :target => :_blank }
+      %h3= t('contact.contact')
+    %br
+    %h3= raw(t('contact.contact2'))
     -##contact_us_success{:style => 'display:none'}
     -#      %h3= t('contact.send_ok_title')
     -#      %p= t('contact.send_ok_message')
@@ -42,5 +46,5 @@
       %br
       Bairro Lagoa Nova · Natal, RN
       %br
-      <a href="tel:558488048036">+55 84 8804-8036</a> · #{mail_to 'contato@cogumm.net'}
+      <a href="tel:558488048036">+55 84 8804-8036</a> · #{mail_to 'contato@cogumm.net?Subject=Contato%20-%20www.CoGUMm.net'}
   .clear

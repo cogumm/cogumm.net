@@ -1,0 +1,25 @@
+.wrapper
+  #portfolio.work_showcase
+    %section
+      .work_showcase_info
+        %h3
+          #{image_tag('portfolio/policegame/logo.jpg', :alt => 'Police Game', :size => "380x90")}
+        %p
+          #{raw (t('policegame.description'))}
+        .portfolio_links
+          %p
+            #{link_to 'Visitar website', 'http://policegame.net/', :class => 'twitter cgm_button', :target => :_blank } #{link_to 'Cadastrar-se', '#', :class => 'portfolio_call_to_action cgm_button', :target => :_blank }
+          .clear
+          %hr
+          %h4 #{t('policegame.screenshots')}
+          %ul.showcase_more_images
+            %li
+              #{link_to image_tag('portfolio/abada/compra.png', :size => "90x70"), image_path('portfolio/abada/compra.png'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
+            %li
+              #{link_to image_tag("portfolio/abada/admin.png", :size => "90x70"), image_path('portfolio/abada/admin.png'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
+            %li
+              #{link_to image_tag("portfolio/abada/admin.png", :size => "90x70"), image_path('portfolio/abada/admin.png'), :rel => 'shadowbox[Mailee.me - Email marketing 2.0]'}
+      .work_showcase_image
+        #{image_tag 'portfolio/policegame/police.png', :title => 'Police Game', :alt => 'Police Game', :size => "550x390" }
+      .clear
+    .clear

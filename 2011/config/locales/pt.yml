@@ -8,74 +8,76 @@ pt:
     keywords: "web 2.0, web2, ruby on rails, ruby, rails, postgres, postgresql, métodos ágeis, agile programming, extreme programming, xp, ajax, javascript, aplicações web 2.0, sistemas web, desenvolvimento, gabriel feitosa vilar, cogumm, gabriel f. vilar, design, programação, arquitetura de informação, usabilidade, web2.0, interface de usuário, html5, html"
 
   cgm:
-    hello: Olá. Seja bem vindo ao meu site.
+    hello: "Olá. Seja bem vindo ao meu site."
     happy_hacking: "Por favor, não perca seu tempo copiando nada daqui. O código completo está no meu Github, em https://github.com/cogumm/cogumm.net. Happy hacking."
 
   nav:
-    method: Metodologia
-    me: Quem SOU
+    method: "Metodologia"
+    me: "Quem SOU"
     social: "Twitter, Facebook & Agenda"
-    contact: Contato
-    portfolio: Portfólio
+    contact: "Contato"
+    portfolio: "Portfólio"
 
   description:
-    punchline: "Desenvolvemos aplicações <em class='web_two'>web 2.0</em> e <em class='web_two'>web 3.0</em> usando <em class='ruby_on_rails'>Ruby on Rails</em> com <em class='postgresql'>PostgreSQL</em> ou <em class='mysql'>MySQL</em>, aliando o melhor do <em class='open_source'>Open Source</em> aos <em class='methods'>métodos certos</em> para realizar seus projetos no <em class='methods'>menor tempo</em> e com a <em class='methods'>maior qualidade</em>."
-    call_to_action: Envie seu projeto
+    punchline: "Desenvolvolvo aplicações <em class='web_two'>web 2.0</em> e <em class='web_two'>web 3.0</em> usando <em class='ruby_on_rails'>Ruby on Rails</em> com <em class='postgresql'>PostgreSQL</em> ou <em class='mysql'>MySQL</em>, aliando o melhor do <em class='open_source'>Open Source</em> aos <em class='methods'>métodos certos</em> para realizar seus projetos no <em class='methods'>menor tempo</em> e com a <em class='methods'>maior qualidade</em>."
+    call_to_action: "Envie seu projeto"
 
   method:
-    title: Metodologia
-    contact: entre em contato
+    title: "Metodologia"
+    contact: "entre em contato"
     agile:
-      title: Métodos ágeis
+      title: "Métodos ágeis"
       desc: "<p>Utilizando sempre metodologias de gerenciamento de projetos ágeis como o SCUM e o XP, ou seja, utilizar métodos ágeis significa colocar as pessoas em primeiro lugar. O sucesso de um projeto de software começa com um time qualificado e que ama o que faz.</p><p>Cliente como parte da equipe, comunicação aberta e foco no resultado complementam a receita.</p>"
     quality:
-      title: Qualidade
+      title: "Qualidade"
       desc: "<p>A experiência de uso determina a qualidade de um software. Por isto, dedico a maior parte do esforços para a criação de interfaces bem projetadas e desenhadas.</p><p>Além disso, utilizo uma série de técnicas para criar sistemas de alta qualidade. Controle de versões com git, testes automatizados de tela, integração contínua e deployment automatizado são algumas delas.</p>"
     tech:
-      title: Tecnologia
+      title: "Tecnologia"
       desc: "<p>Empresas de tecnologia não devem ter medo de experimentar, e assim eu também não tenho esse medo de experimentar. Estou sempre estudando novas ferramentas e testando novas plataformas. Hoje, trabalho principalmente com Ruby on Rails, PostgreSQL e MySQL.</p><p>Tenho também um conhecimento em linguagens como PHP, HTML5, CSS3, Servidores Unix, WordPress 2.9.x.</p>"
 
   staff:
-    who_we_are: Quem SOU
+    who_we_are: "Quem SOU"
     cgm: "<p>Bem sou um jovem sonhador, cheio de muitas idéias, apaixonado por Software Livre, OpenSource e etc.. programador por opção, design quando não tem outra maneira..</p><p>Faço Sistemas de Informação pela UnP, onde estou aprendendo muito mais sobre a area que eu escolhi para seguir e tenho muitos projetos ainda para realizar na area de Web, onde eu gosto muito, estudo bastante também sobre essa area maravilhosa.</p><p>Atualmente estou trabalhando como desenvolvedor freelance com Ruby on Rails.</p><p>Sou membro do PSL-Nordeste, PSL-RN, FLISOL-BR, Rails-BR, Rails-RN, DevNatal, +WEB, DojoRN, e faço parte do Time de Tradução do GNOME Brasileiro.</p><p>Sou fãn do <a href='http://urele.com' target='_blank'>encurtador</a> favorito do Rio Grande do Norte, e nas horas vagas dou uma mãozinha no desenvolvimento dele :D</p>"
     xkcd:
       cgm: "Simples is HARD"
 
   social:
-    agenda: agenda
+    agenda: "agenda"
     interested: "Interessado em uma palestra, curso ou evento?"
-    contact: Entre em contato »
-    with: com
+    contact: "Entre em contato »"
+    with: "com"
     blog:
       read_more: "[leia mais]"
 
   contact:
-    title: Entre em contato
-    name: Nome
-    name_placeholder: Seu nome completo
-    name_required: Você precisa preencher seu nome para poder enviar.
-    email_required: Você precisa preencher seu email para poder enviar.
-    invalid_email: Formato de email inválido. Tente novamente.
-    message_required: Você precisa escrever uma mensagem para poder enviar.
-    email_placeholder: usuario@dominio.com
-    message: Mensagem
-    send:  Enviar
-    wait: Aguarde...
-    message_placeholder: Escreva sua mensagem
-    send_ok_title: Mensagem enviada com sucesso!
-    send_ok_message: Obrigado. Em breve retornaremos seu contato.
-    send_error_title: Ooops. Ocorreu um erro ao enviar a mensagem.
+    title: "Entre em contato"
+    name: "Nome"
+    name_placeholder: "Seu nome completo"
+    name_required: "Você precisa preencher seu nome para poder enviar."
+    email_required: "Você precisa preencher seu email para poder enviar."
+    invalid_email: "Formato de email inválido. Tente novamente."
+    message_required: "Você precisa escrever uma mensagem para poder enviar."
+    email_placeholder: "usuario@dominio.com"
+    message: "Mensagem"
+    send: "Enviar"
+    wait: "Aguarde..."
+    message_placeholder: "Escreva sua mensagem"
+    send_ok_title: "Mensagem enviada com sucesso!"
+    send_ok_message: "Obrigado. Em breve retornaremos seu contato."
+    send_error_title: "Ooops. Ocorreu um erro ao enviar a mensagem."
     send_error_message: "Tente novamente ou, se preferir, envie um email para contato@cogumm.net."
-    send_another_message: Enviar outra mensagem.
-    try_again: Tentar novamente.
-    alert: Em desenvolvimento ;D
+    send_another_message: "Enviar outra mensagem."
+    try_again: "Tentar novamente."
+    alert: "Em desenvolvimento ;D"
+    contact: "Entre em contato através desse formulário."
+    contact2: "Ou pelo e-mail: <a mailto='contato@cogumm.net?Subject=Contato%20-%20www.CoGUMm.net'>contato@cogumm.net</a>"
 
   colophon:
-    age: 3 anos de pura emoção.
+    age: "3 anos de pura emoção."
 # ----------------------------------------------------------------------------------------------------------- #    
   labs:
     urele:
-      desc: O que deseja <samp>compartilhar</samp> hoje?
+      desc: "O que deseja <samp>compartilhar</samp> hoje?"
     spry:
       desc: "Cansado de sempre procurar um gerenciador de projetos, decidir criar o meu próprio. Utilizando <samp>metodologia ágil</samp> para gerenciamento de todos os projetos desenvolvidos por mim."
     cancan:
@@ -88,21 +90,20 @@ pt:
       desc: "Teste de Perfomance do <samp>Ruby 1.8.X</samp> <b>x</b> <samp>Ruby 1.9.X</samp>."
     ruby-unix:
       desc: "Instalando e configurando <samp>Ruby</samp> e <samp>Rails</samp> no <samp>Unix</samp>."
-    source: ver o código fonte
-    
+    source: "ver o código fonte"
+# ----------------------------------------------------------------------------------------------------------- #        
   ddex:
-    description: "Portal DDEX - foi um aplicativo web 2.0 para o controle das mercadorias da empresa. Desenvolvido em Ruby on Rails 2.3.5 e MySQL, focado na sua usabilidade, onde cada setor responsável tinha o total controle da mercadoria."
-    screenshots: Veja algumas telas
-
-  escolhanome:
-    description: ""
-    site_off: "Site fora do ar"
-    
+    description: "<p>Portal DDEX - foi um aplicativo web 2.0 para o controle das mercadorias da empresa. Focado na sua usabilidade, onde cada setor responsável tinha o total controle da mercadoria.</p><p>Ano: </p><p>Recursos: Ruby on Rails 2.3.5, Ruby 1.8.7 e MySQL.</p>"
+    screenshots: "Veja algumas telas"
   omega:
-    description: "Ômega 5 é um grupo formado por freelancers que pode atender as suas necessidades em diversas frentes. Desenvolvido em PHP 5.3.3 com o FreeFramework e MySQL."
-    alert: Site em desenvolvimento
-  
+    description: "<p>Ômega 5 é um grupo formado por freelancers que pode atender as suas necessidades em diversas frentes.</p><p>Ano: 2011</p><p>Recursos: PHP 5.3.3 com o FreeFramework e MySQL.</p>"
+    alert: "Site em desenvolvimento"
   androidday:
-    description: "#AndroidDay é o site oficial do evento exclusivo sobre Android, Android é um sistema operacional móvel. Foi inicialmente desenvolvido pela Google e posteriormente pela Open Handset Alliance, mas a Google é a responsável pela gerência do produto e engenharia de processos. Desenvolvido em PHP 5.3.3 com o FreeFramework e MySQL."
-    alert: Site em desenvolvimento
-    
+    description: "<p>#AndroidDay é o site oficial do evento exclusivo sobre Android, Android é um sistema operacional móvel. Foi inicialmente desenvolvido pela Google e posteriormente pela Open Handset Alliance, mas a Google é a responsável pela gerência do produto e engenharia de processos.</p><p>Ano: 2011</p><p>Recursos: PHP 5.3.3 com o FreeFramework e MySQL.</p>"
+    alert: "Site cancelado."
+  abada:
+    description: "<p>A AbadáWeb é uma agência de vendas de abadás para carnaváis no Brasil e fora. Foi desenvolvido em parceria com <a href='http://cachina.com.br/' target='_blank'>Mayron Cachina</a>.</p><p>Ano: 2011</p><p>Recursos: PHP 5.3.3 com o FreeFramework e MySQL.</p>"
+    screenshots: "Veja algumas telas"
+  policegame:
+    description: "<p>Police Game - Beta</p><p>Police Game é um jogo wbmmog, onde o jogador age como um policial em um mundo fictício. O objetivo do jogo é ser o polícial mais forte. Os jogadores poderão contar com armamentos, coletes, veiculos e animais, usando-os com habilidade para prender os bandidos e ser o melhor.</p><p>Ano: 2011</p><p>Recursos: PHP 5.2 e MySQL.</p>"
+    screenshots: "Veja algumas telas"

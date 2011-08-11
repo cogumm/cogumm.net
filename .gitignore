@@ -1,0 +1,17 @@
+2011/.bundle
+2011/db/*.sqlite3
+2011/log/*.log
+2011/tmp/**/*
+2011/tmp/restart.txt
+2011/*.DS_Store
+# public/stylesheets/screen.css
+# public/stylesheets/print.css
+# public/stylesheets/ie.css
+
+# Vim tmp files
+2011/.*.swp
+
+# Redcar
+2011/.redcar
+2011/.redcar/
+2011/.redcar/**/
