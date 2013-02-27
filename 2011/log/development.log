@@ -431,3 +431,42 @@ Rendered layouts/_footer.html.haml (11.2ms)
 Rendered layouts/_google_analytics.html.haml (4.0ms)
 Rendered site/index.html.haml within layouts/site (707.0ms)
 Completed 200 OK in 729ms (Views: 714.4ms)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /home/cogumm/cogumm.net/2011/config/routes.rb:1)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-15 20:40:00 -0200
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost:3000/en
+Completed 302 Found in 30ms
+
+
+Started GET "/en" for 127.0.0.1 at 2013-01-15 20:40:04 -0200
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (475.1ms)
+Rendered site/portfolio/_abada.html.haml (27.3ms)
+Rendered site/portfolio/_ddex.html.haml (14.2ms)
+Rendered site/portfolio/_omega5.html.haml (10.3ms)
+Rendered site/portfolio/_androidday.html.haml (10.9ms)
+Rendered site/_portfolio.html.haml (139.9ms)
+Rendered site/method/_agile.html.haml (5.7ms)
+Rendered site/method/_quality.html.haml (4.7ms)
+Rendered site/method/_tech.html.haml (5.0ms)
+Rendered site/_method.html.haml (35.5ms)
+Rendered site/labs/_urele.html.haml (11.0ms)
+Rendered site/labs/_spry.html.haml (10.1ms)
+Rendered site/labs/_ruby-unix.html.haml (12.0ms)
+Rendered site/labs/_cancan.html.haml (10.7ms)
+Rendered site/labs/_asciicasts.html.haml (11.3ms)
+Rendered site/labs/_performance.html.haml (10.9ms)
+Rendered site/labs/_dojorn.html.haml (10.7ms)
+Rendered site/_labs.html.haml (109.8ms)
+Rendered site/staff/_cgm.html.haml (5.6ms)
+Rendered site/_me.html.haml (13.4ms)
+Rendered site/_social.html.haml (46.8ms)
+Rendered layouts/_cgm.html.haml (4.0ms)
+Rendered layouts/_navigation.html.haml (9.4ms)
+Rendered layouts/_footer.html.haml (12.0ms)
+Rendered layouts/_google_analytics.html.haml (3.8ms)
+Rendered site/index.html.haml within layouts/site (1009.2ms)
+Completed 200 OK in 1121ms (Views: 1056.7ms)
