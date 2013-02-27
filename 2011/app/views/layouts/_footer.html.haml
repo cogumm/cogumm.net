@@ -3,10 +3,10 @@
     %h1= t 'contact.title'
     %br
     -# %h3= t('contact.alert')
-    %a{ :href => "https://spreadsheets.google.com/spreadsheet/viewform?formkey=dEJMQmVYUnBSTE51a3FyR0RtWXhoSXc6MQ", :target => :_blank }
-      %h3= t('contact.contact')
-    %br
-    %h3= raw(t('contact.contact2'))
+    -#%a{ :href => "https://spreadsheets.google.com/spreadsheet/viewform?formkey=dEJMQmVYUnBSTE51a3FyR0RtWXhoSXc6MQ", :target => :_blank }
+    -#  %h3= t('contact.contact')
+    -#%br
+    -#%h3= raw(t('contact.contact2'))
     -##contact_us_success{:style => 'display:none'}
     -#      %h3= t('contact.send_ok_title')
     -#      %p= t('contact.send_ok_message')
@@ -37,14 +37,14 @@
       -#        %fieldset.submit_button
       -#          %button#send_button{ :"data-wait" => t('contact.wait'), :"data-send" => t('contact.send'), :type => :submit, :form => :contact_form }= t 'contact.send'
   #where_to_find_us
-    %p
-      %a{ :href => 'http://maps.google.com/maps/mm?ie=UTF8&hl=pt-BR&sll=37.0625,-95.677068&sspn=23.875,57.630033&ll=-5.814465,-35.213199&spn=0.021475,0.038581&z=15&iwloc=lyrftr:starred_items:107814271703840619621:,-5.815204*,-35.219609,-5.815212,-35.219615', :target => :_blank }
+    -#%p
+      -#%a{ :href => 'http://maps.google.com/maps/mm?ie=UTF8&hl=pt-BR&sll=37.0625,-95.677068&sspn=23.875,57.630033&ll=-5.814465,-35.213199&spn=0.021475,0.038581&z=15&iwloc=lyrftr:starred_items:107814271703840619621:,-5.815204*,-35.219609,-5.815212,-35.219615', :target => :_blank }
         #{image_tag 'where_are_we.png', :size => '450x250'}
-    %address{:style => 'text-align:right;'}
-      %br
-      Rua Almirante Tertius Rabelo, 1496
-      %br
-      Bairro Lagoa Nova · Natal, RN
-      %br
-      <a href="tel:558488048036">+55 84 8804-8036</a> · #{mail_to 'contato@cogumm.net?Subject=Contato%20-%20www.CoGUMm.net'}
+    -#%address{:style => 'text-align:right;'}
+      -#%br
+      -#Rua Almirante Tertius Rabelo, 1496
+      -#%br
+      -#Bairro Lagoa Nova · Natal, RN
+      -#%br
+      -#<a href="tel:558488048036">+55 84 8804-8036</a> · #{mail_to 'contato@cogumm.net?Subject=Contato%20-%20www.CoGUMm.net'}
   .clear

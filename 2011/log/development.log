@@ -470,3 +470,49 @@ Rendered layouts/_footer.html.haml (12.0ms)
 Rendered layouts/_google_analytics.html.haml (3.8ms)
 Rendered site/index.html.haml within layouts/site (1009.2ms)
 Completed 200 OK in 1121ms (Views: 1056.7ms)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /home/cogumm/cogumm.net/2011/config/routes.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from block in <class:Plugin> at /home/cogumm/cogumm.net/2011/vendor/plugins/haml/init.rb:18)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /home/cogumm/cogumm.net/2011/config/routes.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from block in <class:Plugin> at /var/rails/cogumm.net/vendor/plugins/haml/init.rb:18)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from block in <class:Plugin> at /var/rails/cogumm.net/vendor/plugins/haml/init.rb:18)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from block in <class:Plugin> at /var/rails/cogumm.net/vendor/plugins/haml/init.rb:18)
+DEPRECATION WARNING: You are using the old router DSL which will be removed in Rails 3.1. Please check how to update your routes file at: http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/. (called from <top (required)> at /var/rails/cogumm.net/config/routes.rb:1)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-27 17:25:53 -0300
+  Processing by SiteController#set_initial_locale as HTML
+Redirected to http://localhost:3000/en
+Completed 302 Found in 30ms
+
+
+Started GET "/en" for 127.0.0.1 at 2013-02-27 17:25:55 -0300
+  Processing by SiteController#index as HTML
+  Parameters: {"lang"=>"en"}
+Rendered site/_description.html.haml (378.1ms)
+Rendered site/portfolio/_abada.html.haml (158.6ms)
+Rendered site/portfolio/_ddex.html.haml (17.7ms)
+Rendered site/portfolio/_omega5.html.haml (11.2ms)
+Rendered site/portfolio/_androidday.html.haml (10.1ms)
+Rendered site/_portfolio.html.haml (276.7ms)
+Rendered site/method/_agile.html.haml (5.4ms)
+Rendered site/method/_quality.html.haml (4.3ms)
+Rendered site/method/_tech.html.haml (5.3ms)
+Rendered site/_method.html.haml (28.7ms)
+Rendered site/labs/_urele.html.haml (12.6ms)
+Rendered site/labs/_spry.html.haml (10.2ms)
+Rendered site/labs/_ruby-unix.html.haml (11.9ms)
+Rendered site/labs/_cancan.html.haml (11.8ms)
+Rendered site/labs/_asciicasts.html.haml (13.7ms)
+Rendered site/labs/_performance.html.haml (11.6ms)
+Rendered site/labs/_dojorn.html.haml (12.3ms)
+Rendered site/_labs.html.haml (109.6ms)
+Rendered site/staff/_cgm.html.haml (5.3ms)
+Rendered site/_me.html.haml (12.8ms)
+Rendered site/_social.html.haml (84.7ms)
+Rendered layouts/_cgm.html.haml (5.0ms)
+Rendered layouts/_navigation.html.haml (84.9ms)
+Rendered layouts/_footer.html.haml (6.6ms)
+Rendered layouts/_google_analytics.html.haml (3.6ms)
+Rendered site/index.html.haml within layouts/site (1050.1ms)
+Completed 200 OK in 1240ms (Views: 1056.9ms)
