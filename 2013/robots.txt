@@ -1,0 +1,16 @@
+User-Agent: *
+Disallow: /app
+Disallow: /doc
+Disallow: /config
+Disallow: /config/*
+Disallow: /app/controllers/*
+Disallow: /app/helpers/*
+Disallow: /app/models/*
+Allow: /app/views/*
+Allow: /public/*
+Allow: /*
+
+User-agent: Googlebot-Image
+Allow: /public/img/*
+Allow: /public/css/*
+
