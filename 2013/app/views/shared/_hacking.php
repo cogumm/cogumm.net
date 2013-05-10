@@ -6,14 +6,13 @@
  */
 ?>
 <!--
-Olá, seja bem vindo ao site da Sukyo Mahikari do Brasil.
+Olá, seja bem vindo ao meu website!
 Por favor, não perca seu tempo copiando nada daqui.
 O código esta no meu Github, em
 
-https://github.com/cogumm/sukyomahikari
+https://github.com/cogumm/cogumm.net
 
 Happy hacking!!
 
-Desenvolvido pelo Departamento de Tecnologia da Informação - Sukyo Mahikari do Brasil
-Sede Brasil.
+Desenvolvido por @CoGUMm
  -->

@@ -14,7 +14,5 @@
 	
 	// Helpers
 	include_once 'app/helpers/application_helper.php';
-	
-	// Legendas
-	include_once 'lang/pt-BR.php'
+	include_once 'app/helpers/galeria_helper.php';
 ?>

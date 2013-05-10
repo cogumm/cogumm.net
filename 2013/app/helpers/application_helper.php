@@ -6,12 +6,12 @@
 */
 
 include_once 'config/includes.php';
-
+include_once 'galeria_helper.php';
 ?>
 <?php 
 	// Licença
 	function license_info(){
-		return "2012 - " . date(Y) .  " Sukyo Mahikari do Brasil";
+		return "Copyright 2008 - " . date(Y) .  " CoGUMm.net - 5 anos de pura emoção!";
 	};
 	
 	// Google Analitycs

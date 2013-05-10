@@ -188,13 +188,15 @@ class Utils {
 	 * @param $arquivos
 	 * @return string
 	 * @Author Mayron
+	 * LOG:
+	 *	28-04-13 => CoGUMm: Atualizado classe para carregar corretamente os arquivos CSS e JS na nova estrutura do Framework
 	 */
-    function carregaCss($arquivos){
+    function carregaCssJS($arquivos){
         foreach($arquivos as $item){
             if(substr($item,-3) == 'css'){
-        	    echo "<link href=\"".$server."public/css/$item\" rel=\"stylesheet\" type=\"text/css\" media=\"screen\">\n";
+        	    echo "<link href=\"".$server."app/assets/css/$item\" rel=\"stylesheet\" type=\"text/css\" media=\"screen\">\n";
         	}else{
-        	    echo "<script type=\"text/javascript\" src=\"".$server."/public/js/$item\"></script>\n";
+        	    echo "<script type=\"text/javascript\" src=\"".$server."app/assets/js/$item\"></script>\n";
         	}
         }
     }

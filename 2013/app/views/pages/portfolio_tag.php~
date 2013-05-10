@@ -1,0 +1,56 @@
+<div class="separator"></div>
+  <div class="row-fluid">
+		<div class="span12 addspace">
+			<h1>PORTOFOLIO 2</h1>
+		</div>
+	</div>
+  <div class="row-fluid">
+	  <div class="span12 addspace">				   
+		  <aside class="clearfix">
+		  <nav class="category clearfix">
+		  <ul> <!-- Define portofolio categories-->
+			  <li><a href="index.html#" class="selected" data-filter="*">All</a></li>
+			  <li><a href="index.html#" data-filter=".flowers">Flowers</a></li>
+			  <li><a href="index.html#" data-filter=".nature">Nature</a></li>
+			  <li><a href="index.html#" data-filter=".animals">Animals</a></li>
+			  <li><a href="index.html#" data-filter=".buildings">Buildings</a></li>
+			  <li><a href="index.html#" data-filter=".cities">Cities</a></li>
+		  </ul>
+		  </nav>
+		  </aside>					    
+			  <section class="main clearfix">
+			  <div class="fportfolio isotope">
+			       <!-- Add images-->
+				  <article class="entry animals buildings isotope-item">
+				  <img src="img/filterable/1.jpg" alt="">
+				  <span class="hover"></span>
+				  </article>
+				
+				  <article class="entry buildings animals isotope-item">
+				  <img src="img/filterable/1.jpg" alt="">
+				  <span class="hover"></span>
+				  </article>
+				
+				  <article class="entry flowers nature isotope-item">
+				  <img src="img/filterable/1.jpg" alt="">
+				  <span class="hover"></span>
+				  </article>
+				
+				  <article class="entry nature cities flowers isotope-item">
+				  <img src="img/filterable/1.jpg" alt="">
+				  <span class="hover"></span>
+				  </article>
+				
+				  <article class="entry animals cities buidlings isotope-item">
+				  <img src="img/filterable/1.jpg" alt="">
+				  <span class="hover"></span>
+				  </article>
+				
+				  <article class="entry buldings cities animals flowers isotope-item">
+				  <img src="img/filterable/1.jpg" alt="">
+				  <span class="hover"></span>
+				  </article>
+			  </div>
+			  </section>
+	  </div>
+  </div>
