@@ -33,6 +33,7 @@
 <!--Contact -->
 <section id="contact">
 <div class="separator"></div><br/>
-	<?php include_once('app/views/pages/contact.php'); ?>
+	<?//php include_once('app/views/pages/contact.php'); ?>
 </section>
+<h3>Site em desenvolvimento #souDev</h3>
 <br/>

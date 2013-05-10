@@ -2309,7 +2309,9 @@ nav.category ul li a:active,nav.category ul li a.selected {
 	margin-right:-20px;
 }
 .hover {
-	background:rgba(0,0,0,.7) url(../img/hover.png) no-repeat center;
+	background:rgba(0,0,0,.1) no-repeat center;
+  font-weight: bold;
+
 	position:absolute;
 	top:10px;
 	left:10px;
@@ -2384,4 +2386,36 @@ svg image:hover {
 .centalign {
   text-align:center;
 }
+/* */
+.labs_project {
+  background: none repeat scroll 0 0 #E7E7E7;
+  border: 1px solid #D6D6D6;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 1px 0 #FFFFFF inset;
+}
 
+.project_actions .action a {
+    background: -moz-linear-gradient(center top , #CCCCCC 0%, #BBBBBB 100%) repeat scroll 0 0 #DDDDDD;
+    border: 1px solid #999999;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    color: #202020;
+    display: block;
+    float: right;
+    font-weight: 150;
+    margin-right: 20px;
+    padding: 3px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #F2F2F2;
+}
+
+.project_author a {
+  font-size: 12px;
+}
+.project_title a {
+  font-size: 16px;
+}
+
+.project_actions .install code {
+    text-shadow: 0 1px 0 #FFFFFF;
+}
