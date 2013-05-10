@@ -8,6 +8,8 @@
 # public/stylesheets/print.css
 # public/stylesheets/ie.css
 
+2013/doc/html/*
+
 # Vim tmp files
 2011/.*.swp
 
