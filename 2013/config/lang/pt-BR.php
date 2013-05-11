@@ -1,4 +1,7 @@
 <?php
+// DRY: Don't repeat yourself (Não repita a si mesmo)
+$title = "CoGUMm.net - Nem melhor, nem pior, apenas diferente!";
+
 // Menu
 $T_HOME = 'Inicio';
 $T_ABOUT = 'Sobre';

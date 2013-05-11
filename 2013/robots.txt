@@ -6,11 +6,12 @@ Disallow: /config/*
 Disallow: /app/controllers/*
 Disallow: /app/helpers/*
 Disallow: /app/models/*
+Allow: /app/assets/*
 Allow: /app/views/*
 Allow: /public/*
 Allow: /*
 
 User-agent: Googlebot-Image
-Allow: /public/img/*
-Allow: /public/css/*
+Allow: /app/assets/img/*
+Allow: /app/assets/css/*
 
