@@ -3,7 +3,7 @@
 		<div class="span12 addspace">
       <img src="app/assets/img/labs/cgm_labs.png" class="grayscale" alt="">
 			<h1>Alguns Laboratórios</h1>
-      <h5>Visitem o meu repositório do Github e vejam mais. </h5>
+      <h5>Visitem o meu labs <a href="http://labs.cogumm.net" target="_blank">AQUI</a> e vejam mais.</h5>
 		</div>
 	</div>
   <div class="row-fluid">

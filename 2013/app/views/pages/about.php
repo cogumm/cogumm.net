@@ -20,7 +20,7 @@
   <div class="span4">
 	  <div class="tdiv t5">
       <p class="justalign">
-      Desenvolvolvo aplicações web 3.0 usando Ruby on Rails ou PHP com MySQL ou NoSQL, aliando o melhor do Open Source aos métodos certos para realizar seus projetos no menor tempo e com a maior qualidade.
+      Desenvolvo aplicações web 3.0 usando Ruby on Rails ou PHP com MySQL, PostgreSQL ou NoSQL, aliando o melhor do Open Source aos métodos certos para realizar seus projetos no menor tempo e com a maior qualidade.
 		  </p>
 	  </div>
   </div>

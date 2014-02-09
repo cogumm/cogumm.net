@@ -34,9 +34,10 @@
 			<li class="description">nas horas vagas</li>
 		</ul>
 		<div class="social">
-			<a href="https://www.facebook.com/cogumm" target="_blank"><img src="app/assets/img/facebook.png" alt=""></a>
-			<a href="https://twitter.com/CoGUMm" target="_blank"><img src="app/assets/img/twitter.png" alt=""></a>
-      <a href="https://github.com/cogumm" target="_blank"><img src="app/assets/img/github.png" alt=""></a>
+			<a href="https://www.facebook.com/cogumm" target="_blank"><img src="app/assets/img/facebook.png" alt="CoGUMm"></a>
+			<a href="https://twitter.com/CoGUMm" target="_blank"><img src="app/assets/img/twitter.png" alt="@CoGUMm"></a>
+      <a href="https://github.com/cogumm" target="_blank"><img src="app/assets/img/github.png" alt="Github"></a>
+      <a href="https://cloud.cogumm.net" target="_blank"><img src="app/assets/img/cloud.png" alt="cGmCloud"></a>
 		</div>
 	</div>
 </div>

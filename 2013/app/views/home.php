@@ -22,7 +22,7 @@
 <!-- Portfolio -->
 <section id="portofolio">
 <div class="separator"></div><br/>
-  <?//php include_once('app/views/pages/portfolio.php'); ?>
+  <?php include_once('app/views/pages/portfolio.php'); ?>
 </section>
 <div class="pagebreak"></div>
 <br/>

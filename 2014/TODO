@@ -1,0 +1,312 @@
+          <!-- <li>
+            <article>
+              <h1>Little Kiss</h1>
+              <div class="description">
+                <p>Ecommerce para la firma de lencería y ropa de baño LittleKiss.</p>
+                <p>La integración, adapta el diseño de la página siguiendo la estructura y directrices de Magento.</p>
+                <p>Proyecto desarrollado por Cesser Digital.</p>
+              </div>
+              <img class="work-image" src="images/work/littlekiss-b.png" alt="Little Kiss">
+
+              <div class="participation">
+                <h2 class="visuallyhidden">Mi participación en el proyecto Little Kiss</h2>
+                <ul class="project-tasks clearfix">
+                  <li>
+                    <b id="w21" data-radius="100"><span>100%</span></b>
+                    <strong>HTML &amp; CSS</strong>
+                  </li>
+                  <li>
+                    <b id="w22" data-radius="75"><span>75%</span></b>
+                    <strong>Javascript</strong>
+                  </li>
+                  <li>
+                    <b id="w23" data-radius="50"><span>50%</span></b>
+                    <strong>Integración Magento</strong>
+                  </li>
+                </ul>
+              </div>
+
+              <a class="site-link" href="http://www.littlekiss.com/" title="Little Kiss" target="_blank" rel="nofollow">http://littlekiss.com</a>
+              <div class="tags">
+                <h2 class="visuallyhidden">Tecnologías usadas en el proyecto</h2>
+                <ul>
+                  <li>magento</li>
+                  <li>xhtml</li>
+                  <li>css 2.1</li>
+                  <li>jQuery</li>
+                  <li>prototype</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h1>Blog de Iberfone</h1>
+              <div class="description">
+                <p>Tema de Wordpress desarrollado a partir del "pre-tema" <a href="http://themble.com/bones/" title="Bones">BONES</a>, con una estructura que se adapta a la resolución del dispositivo.</p>
+                <p>Resaltar el efecto parallax de la cabecera, creado desde cero sin añadir marcado extra en el HTML, así como el desarrollo de dos módulos propios para satisfacer las necesidades del cliente.</p>
+                <p>Proyecto desarrollado por Cesser Digital.</p>
+              </div>
+              <img class="work-image" src="images/work/iberfoneblog-b.png" alt="Blog de Iberfone">
+              <div class="participation">
+                <h2 class="visuallyhidden">Mi participación en el proyecto Blog de Iberfone</h2>
+                <ul class="project-tasks clearfix">
+                  <li>
+                    <b id="w41" data-radius="100"><span>100%</span></b>
+                    <strong>HTML &amp; CSS</strong>
+                  </li>
+                  <li>
+                    <b id="w42" data-radius="90"><span>90%</span></b>
+                    <strong>Javascript</strong>
+                  </li>
+                  <li>
+                    <b id="w43" data-radius="100"><span>100%</span></b>
+                    <strong>Desarrollo Wordpress</strong>
+                  </li>
+                </ul>
+              </div>
+              <a class="site-link" href="http://blog.iberfone.es/" title="Blog de Iberfone" target="_blank" rel="nofollow">http://blog.iberfone.es</a>
+              <div class="tags">
+                <h2 class="visuallyhidden">Tecnologías usadas en el proyecto</h2>
+                <ul>
+                  <li>wordpress</li>
+                  <li>html5</li>
+                  <li>css 3</li>
+                  <li>jQuery</li>
+                  <li title="Responsive Web Design">RWD</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h1>Unisa Shop</h1>
+              <div class="description">
+                <p>Ecommerce para la marca de calzado española Unisa.</p>
+                <p>Diseño a medida para esta tienda internacional, ensalzando visualmente los distintos colores de los modelos ofrecidos.</p>
+                <p>Proyecto desarrollado por Cesser Digital.</p>
+              </div>
+              <img class="work-image" src="images/work/unisa-b.png" alt="Unisa">
+              <div class="participation">
+                <h2 class="visuallyhidden">Mi participación en el proyecto Unisa Shop</h2>
+                <ul class="project-tasks clearfix">
+                  <li>
+                    <b id="w31" data-radius="100"><span>100%</span></b>
+                    <strong>Front-end code</strong>
+                  </li>
+                  <li>
+                    <b id="w32" data-radius="80"><span>80%</span></b>
+                    <strong>Javascript</strong>
+                  </li>
+                  <li>
+                    <b id="w33" data-radius="50"><span>50%</span></b>
+                    <strong>Desarrollo Magento</strong>
+                  </li>
+                </ul>
+              </div>
+              <a class="site-link" href="http://tienda.unisa-europa.es/" title="Unisa Shop" target="_blank" rel="nofollow">http://tienda.unisa-europa.es</a>
+              <div class="tags">
+                <h2 class="visuallyhidden">Tecnologías usadas en el proyecto</h2>
+                <ul>
+                  <li>magento</li>
+                  <li>xhtml</li>
+                  <li>css 2.1</li>
+                  <li>jQuery</li>
+                  <li>prototype</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h1>Ciinpi</h1>
+              <div class="description">
+                <p>Web multiidoma para el Centro Internacional de Innovación en Políticas de Igualdad.</p>
+                <p>Desarrollado en Drupal, integra resultados publicados en su blog basado en Wordpress. Se crearon diferentes tipos de contenido para el resto de secciones de la web.</p>
+                <p>Proyecto desarrollado por la agencia We Get It.</p>
+              </div>
+              <img class="work-image" src="images/work/ciinpi-b.png" alt="Ciinpi">
+              <div class="participation">
+                <h2 class="visuallyhidden">Mi participación en el proyecto Ciinpi</h2>
+                <ul class="project-tasks clearfix">
+                  <li>
+                    <b id="w51" data-radius="100"><span>100%</span></b>
+                    <strong>HTML &amp; CSS</strong>
+                  </li>
+                  <li>
+                    <b id="w52" data-radius="100"><span>100%</span></b>
+                    <strong>Javascript</strong>
+                  </li>
+                  <li>
+                    <b id="w53" data-radius="100"><span>100%</span></b>
+                    <strong>Desarrollo Drupal</strong>
+                  </li>
+                </ul>
+              </div>
+              <a class="site-link" href="http://ciinpi.com/" title="Ciinpi" target="_blank" rel="nofollow">http://ciinpi.com/</a>
+              <div class="tags">
+                <h2 class="visuallyhidden">Tecnologías usadas en el proyecto</h2>
+                <ul>
+                  <li>drupal</li>
+                  <li>xhtml</li>
+                  <li>css 2.1</li>
+                  <li>jQuery</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h1>Vigar Shop</h1>
+              <div class="description">
+                <p>Ecommerce para la marca de objetos para el hogar Vigar. Destacar el gran trabajo de diseño que se integró a la perfección con la plataforma Magento.</p>
+                <p>El proyecto requirió el desarrollo de varios módulos personalizados, para adaptar el funcionamiento por defecto a las necesidades del cliente.</p>
+                <p>Proyecto desarrollado por Cesser Digital.</p>
+              </div>
+              <img class="work-image" src="images/work/vigarshop-b.png" alt="Vigar Shop">
+              <div class="participation">
+                <h2 class="visuallyhidden">Mi participación en el proyecto Vigar Shop</h2>
+                <ul class="project-tasks clearfix">
+                  <li>
+                    <b id="w61" data-radius="100"><span>100%</span></b>
+                    <strong>HTML &amp; CSS</strong>
+                  </li>
+                  <li>
+                    <b id="w62" data-radius="80"><span>80%</span></b>
+                    <strong>Javascript</strong>
+                  </li>
+                  <li>
+                    <b id="w63" data-radius="50"><span>50%</span></b>
+                    <strong>Desarrollo Magento</strong>
+                  </li>
+                </ul>
+              </div>
+              <a class="site-link" href="http://www.vigarshop.com/" title="Vigar Shop" target="_blank" rel="nofollow">http://www.vigarshop.com/</a>
+              <div class="tags">
+                <h2 class="visuallyhidden">Tecnologías usadas en el proyecto</h2>
+                <ul>
+                  <li>magento</li>
+                  <li>xhtml</li>
+                  <li>css 2.1</li>
+                  <li>jQuery</li>
+                  <li>prototype</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h1>Cofradía La Caída Elche</h1>
+              <div class="description">
+                <p>La web realizada para esta cofradía ilicitana, desarrollada íntegramente bajo Drupal, permite gestionar las galerias de imágenes, cronologías, eventos, destacados, etc.</p>
+                <p>La sección de noticias se desarrolló bajo Wordpress, creando un tema específico de acuerdo a sus necesidades.</p>
+              </div>
+              <img class="work-image" src="images/work/lacaidaelche-b.png" alt="Cofradía La Caída Elche">
+              <div class="participation">
+                <h2 class="visuallyhidden">Mi participación en el proyecto Cofradía La Caída Elche</h2>
+                <ul class="project-tasks clearfix">
+                  <li>
+                    <b id="w71" data-radius="100"><span>100%</span></b>
+                    <strong>HTML &amp; CSS</strong>
+                  </li>
+                  <li>
+                    <b id="w72" data-radius="100"><span>100%</span></b>
+                    <strong>Diseño</strong>
+                  </li>
+                  <li>
+                    <b id="w73" data-radius="100"><span>100%</span></b>
+                    <strong>Desarrollo Drupal</strong>
+                  </li>
+                </ul>
+              </div>
+              <a class="site-link" href="http://lacaidaelche.com" title="Cofradía La Caída Elche" target="_blank" rel="nofollow">http://lacaidaelche.com/</a>
+              <div class="tags">
+                <h2 class="visuallyhidden">Tecnologías usadas en el proyecto</h2>
+                <ul>
+                  <li>drupal</li>
+                  <li>wordpress</li>
+                  <li>xhtml</li>
+                  <li>css 2.1</li>
+                  <li>jQuery</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h1>Eversalud</h1>
+              <div class="description">
+                <p>Página estática realizada para la sociedad sanitaria Eversalud.</p>
+                <p>Mi participación en este proyecto se centró en convertir a HTML los diseños aportados por el cliente, introduciendo las mejoras que proporciona CSS3 para mejorar el rendimiento de la página.</p>
+                <p>La web proporciona una degradación satisfactoria en su visualización para aquellos navegadores que no soportan estas nuevas características. </p>
+              </div>
+              <img class="work-image" src="images/work/eversalud-b.png" alt="Eversalud">
+              <div class="participation">
+                <h2 class="visuallyhidden">Mi participación en el proyecto Eversalud</h2>
+                <ul class="project-tasks clearfix">
+                  <li>
+                    <b id="w81" data-radius="100"><span>100%</span></b>
+                    <strong>HTML &amp; CSS</strong>
+                  </li>
+                  <li>
+                    <b id="w82" data-radius="100"><span>100%</span></b>
+                    <strong>JavaScript</strong>
+                  </li>
+                </ul>
+              </div>
+              <a class="site-link" href="http://eversalud.es/" title="Cofradía La Caída Elche" target="_blank" rel="nofollow">http://eversalud.es/</a>
+              <div class="tags">
+                <h2 class="visuallyhidden">Tecnologías usadas en el proyecto</h2>
+                <ul>
+                  <li>xhtml</li>
+                  <li>css 3</li>
+                  <li>jQuery</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h1>Vigar</h1>
+              <div class="description">
+                <p>Web corporativa para la marca de objetos para el hogar Vigar VIGAR. Desarrollada utilizando el CMS Drupal.</p>
+                <p>Debido a la gran cantidad de animaciones y contenido dinámico que ofrece la página, gran parte de los esfuerzos se centraron en el desarrollo y optimización del código Javascript.</p>
+                <p>Proyecto desarrollado por Cesser Digital.</p>
+              </div>
+              <img class="work-image" src="images/work/vigar-b.png" alt="Vigar">
+              <div class="participation">
+                <h2 class="visuallyhidden">Mi participación en el proyecto Vigar</h2>
+                <ul class="project-tasks clearfix">
+                  <li>
+                    <b id="w91" data-radius="100"><span>100%</span></b>
+                    <strong>HTML &amp; CSS</strong>
+                  </li>
+                  <li>
+                    <b id="w92" data-radius="90"><span>90%</span></b>
+                    <strong>Javascript</strong>
+                  </li>
+                  <li>
+                    <b id="w93" data-radius="50"><span>50%</span></b>
+                    <strong>Integración Drupal</strong>
+                  </li>
+                </ul>
+              </div>
+              <a class="site-link" href="http://www.vigar.com" title="Ver la web de Vigar" target="_blank" rel="nofollow">http://www.vigar.com</a>
+              <div class="tags">
+                <h2 class="visuallyhidden">Tecnologías usadas en el proyecto</h2>
+                <ul>
+                  <li>drupal</li>
+                  <li>xhtml</li>
+                  <li>css 2.1</li>
+                  <li>jQuery</li>
+                </ul>
+              </div>
+            </article>
+          </li> -->
