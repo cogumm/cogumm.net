@@ -3921,7 +3921,32 @@ body.is-preload #sidebar nav ul li {
 }
 
 @media screen and (max-width: 736px) {
-  #sidebar {
+  #header {
+    display: block;
+    padding: 0 2em;
+    text-align: left;
+  }
+
+  #header .title {
+    font-size: 1.25em;
+    padding: 1em 0;
+  }
+
+  #header > nav {
+    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    text-align: inherit;
+  }
+
+  #header > nav > ul > li {
+    margin-left: 1.5em;
+  }
+
+  #header > nav > ul > li a {
+    height: 6em;
+    line-height: 6em;
+  }
+
+  .fit {
     display: none;
   }
 }
@@ -3955,6 +3980,9 @@ body.is-preload #sidebar nav ul li {
 @media screen and (max-width: 1280px) {
   #intro {
     background-attachment: scroll;
+  }
+  .fit {
+    display: none;
   }
 }
 .avatar {
