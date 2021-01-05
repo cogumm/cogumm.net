@@ -1,0 +1,11 @@
+**/*.ts
+**/*.tsx
+
+**/node_modules/*
+**/out/*
+**/.next/**
+**/_next/**
+**/dist/**
+
+next-env.d.ts
+babel.config.js
