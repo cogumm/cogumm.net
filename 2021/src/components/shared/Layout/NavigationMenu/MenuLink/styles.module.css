@@ -1,0 +1,7 @@
+.linkActive {
+    font-weight: 600;
+}
+
+.linkActive:hover {
+    opacity: 1;
+}
