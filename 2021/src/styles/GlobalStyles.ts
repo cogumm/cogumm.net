@@ -47,6 +47,7 @@ export default createGlobalStyle<ITheme>`
     a {
         color: ${({ theme }) => theme.colors.secondary};
         text-decoration: none;
+        cursor: pointer;
     }
 
     a:hover {

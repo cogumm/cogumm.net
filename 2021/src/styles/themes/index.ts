@@ -2,7 +2,7 @@ export const ThemeDark = {
     bg: {
         background: "#24292e",
         backgroundElevation: "#292929",
-        backgroundWithTransparency: "rgba(18, 18, 18, 0.75)",
+        backgroundWithTransparency: "rgba(36, 41, 46, 0.75)",
         backgroundSurface: "#F1F6F8",
     },
 
