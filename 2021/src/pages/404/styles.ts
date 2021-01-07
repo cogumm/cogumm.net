@@ -6,8 +6,9 @@ export const Container = styled.div`
 
 export const Hadline = styled.h1`
     color: var(--primary);
-    font-size: 5rem;
+    font-size: 6rem;
     margin-top: 0;
+    margin-bottom: 20px;
 `;
 
 export const Title = styled.h3`
